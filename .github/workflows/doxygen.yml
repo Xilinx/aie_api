@@ -9,11 +9,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install dependencies
-        run: sudo apt-get install -y doxygen graphviz
+        run: sudo apt-get install -y graphviz texlive-latex-recommended pdf2svg
+      - name: Download Doxygen release
+        run: curl -L https://github.com/doxygen/doxygen/releases/download/Release_1_13_2/doxygen-1.13.2.linux.bin.tar.gz -o - | tar -C ${{github.workspace}} -xzf -
       - name: Generate Documentation
         run: |
             pushd doc
-            doxygen aie_api.doxygen
+            ${{github.workspace}}/doxygen-1.13.2/bin/doxygen aie_api.doxygen
             popd
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
