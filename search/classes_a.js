@@ -1,0 +1,18 @@
+var searchData=
+[
+  ['sliding_5fmul_5fch_5fops_0',['sliding_mul_ch_ops',['../group__group__mul__special.html#structaie_1_1sliding__mul__ch__ops',1,'aie']]],
+  ['sliding_5fmul_5fch_5fops_3c_20outputs_2c_20channels_2c_20points_2c_20coeffstep_2c_201_2c_20datastepy_2c_20coefftype_2c_20datatype_2c_20accumtag_20_3e_1',['sliding_mul_ch_ops&lt; Outputs, Channels, Points, CoeffStep, 1, DataStepY, CoeffType, DataType, AccumTag &gt;',['../group__group__mul__special.html',1,'aie']]],
+  ['sliding_5fmul_5fch_5fops_3c_20outputs_2c_20channels_2c_20points_2c_20coeffstep_2c_20datastep_2c_20datastep_2c_20coefftype_2c_20datatype_2c_20accumtag_20_3e_2',['sliding_mul_ch_ops&lt; Outputs, Channels, Points, CoeffStep, DataStep, DataStep, CoeffType, DataType, AccumTag &gt;',['../group__group__mul__special.html',1,'aie']]],
+  ['sliding_5fmul_5fch_5fops_3c_20outputs_2c_20channels_2c_20points_2c_20coeffstep_2c_20datastepx_2c_201_2c_20coefftype_2c_20datatype_2c_20accumtag_20_3e_3',['sliding_mul_ch_ops&lt; Outputs, Channels, Points, CoeffStep, DataStepX, 1, CoeffType, DataType, AccumTag &gt;',['../group__group__mul__special.html',1,'aie']]],
+  ['sliding_5fmul_5fops_4',['sliding_mul_ops',['../group__group__mul__special.html#structaie_1_1sliding__mul__ops',1,'aie']]],
+  ['sliding_5fmul_5fops_3c_20lanes_2c_20points_2c_20coeffstep_2c_201_2c_20datastepy_2c_20coefftype_2c_20datatype_2c_20accumtag_20_3e_5',['sliding_mul_ops&lt; Lanes, Points, CoeffStep, 1, DataStepY, CoeffType, DataType, AccumTag &gt;',['../group__group__mul__special.html',1,'aie']]],
+  ['sliding_5fmul_5fops_3c_20lanes_2c_20points_2c_20coeffstep_2c_20datastepx_2c_201_2c_20coefftype_2c_20datatype_2c_20accumtag_20_3e_6',['sliding_mul_ops&lt; Lanes, Points, CoeffStep, DataStepX, 1, CoeffType, DataType, AccumTag &gt;',['../group__group__mul__special.html',1,'aie']]],
+  ['sliding_5fmul_5fops_3c_20lanes_2c_20points_2c_20coeffstep_2c_20datastepxy_2c_20datastepxy_2c_20coefftype_2c_20datatype_2c_20accumtag_20_3e_7',['sliding_mul_ops&lt; Lanes, Points, CoeffStep, DataStepXY, DataStepXY, CoeffType, DataType, AccumTag &gt;',['../group__group__mul__special.html',1,'aie']]],
+  ['sliding_5fmul_5fsym_5fops_8',['sliding_mul_sym_ops',['../group__group__mul__special.html#structaie_1_1sliding__mul__sym__ops',1,'aie']]],
+  ['sliding_5fmul_5fsym_5fops_3c_20lanes_2c_20points_2c_20coeffstep_2c_201_2c_20datastepy_2c_20coefftype_2c_20datatype_2c_20accumtag_20_3e_9',['sliding_mul_sym_ops&lt; Lanes, Points, CoeffStep, 1, DataStepY, CoeffType, DataType, AccumTag &gt;',['../group__group__mul__special.html',1,'aie']]],
+  ['sliding_5fmul_5fsym_5fops_3c_20lanes_2c_20points_2c_20coeffstep_2c_20datastepx_2c_201_2c_20coefftype_2c_20datatype_2c_20accumtag_20_3e_10',['sliding_mul_sym_ops&lt; Lanes, Points, CoeffStep, DataStepX, 1, CoeffType, DataType, AccumTag &gt;',['../group__group__mul__special.html',1,'aie']]],
+  ['sliding_5fmul_5fsym_5fops_3c_20lanes_2c_20points_2c_20coeffstep_2c_20datastepxy_2c_20datastepxy_2c_20coefftype_2c_20datatype_2c_20accumtag_20_3e_11',['sliding_mul_sym_ops&lt; Lanes, Points, CoeffStep, DataStepXY, DataStepXY, CoeffType, DataType, AccumTag &gt;',['../group__group__mul__special.html',1,'aie']]],
+  ['sliding_5fmul_5fsym_5fuct_5fops_12',['sliding_mul_sym_uct_ops',['../group__group__mul__special.html#structaie_1_1sliding__mul__sym__uct__ops',1,'aie']]],
+  ['sparse_5fvector_13',['sparse_vector',['../group__group__basic__types.html#classaie_1_1sparse__vector',1,'aie']]],
+  ['sparse_5fvector_5finput_5fbuffer_5fstream_14',['sparse_vector_input_buffer_stream',['../group__group__memory.html#classaie_1_1sparse__vector__input__buffer__stream',1,'aie']]]
+];
