@@ -8247,7 +8247,12 @@ BINARY_OP_IMPL(Neg)
 
 }
 
-#ifdef __AIENGINE__
+// aie_adf.hpp brings in the ADF stream API, which includes <adf.h>. That header
+// is part of the Vitis ADF framework and is not present in bare-metal, IRON, or
+// mlir-aie builds. Only pull it in when it is actually available, so aie_api can
+// be used outside the ADF flow; when __has_include is unavailable, fall back to
+// the previous behavior of including it under __AIENGINE__.
+#if defined(__AIENGINE__) && (!defined(__has_include) || __has_include(<adf.h>))
 #include "aie_adf.hpp"
 #endif
 #include "operators.hpp"
