@@ -11,6 +11,10 @@
 #define AIE_API_ML_VERSION         100
 #define AIE_API_MATH_VERSION       100
 
+// The adf-free cascade accessor (aie_api/cascade.hpp) is currently implemented
+// only for aie2p under Peano; it is not available on this architecture.
+#define __AIE_API_HAS_CASCADE__               0
+
 // >= 900000 is used to detect the master development branch
 
 #define __AIE_API_REGISTER_ATTR_DEFINED__ ((__AIE_MODEL_VERSION__ >= 900000)                                                                   || \

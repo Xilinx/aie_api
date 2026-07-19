@@ -19,6 +19,10 @@
 
 #define __AIE_API_FP32_EMULATION__                  (__AIE_MODEL_VERSION__ >= 3000)
 
+// The adf-free cascade accessor (aie_api/cascade.hpp) is currently implemented
+// only for aie2p under Peano; it is not available on this architecture.
+#define __AIE_API_HAS_CASCADE__                     0
+
 #define __AIE_API_FP32_SUPPORT__                    0
 
 #define __AIE_API_32ELEM_FLOAT_SRS_UPS__            (__AIE_MODEL_VERSION__ >= 10300)

@@ -33,6 +33,17 @@
 
 #define __AIE_API_HAS_COMPLEX_BFLOAT16_FIFO__ (__AIE_MODEL_VERSION__ >= 10500)
 
+// Adf-free core-to-core cascade accessor (aie_api/cascade.hpp). The cascade
+// datapath exists on the silicon, but the accessor is currently implemented
+// only through the Peano __builtin_aie2p_* intrinsics, so it is available on
+// aie2p under Peano. On other compilers (chess) the capability is 0 until the
+// corresponding intrinsic path is added, so the accessor is simply not defined.
+#ifdef __PEANO__
+#define __AIE_API_HAS_CASCADE__               1
+#else
+#define __AIE_API_HAS_CASCADE__               0
+#endif
+
 #define __AIE_API_CONSTEXPR_BFLOAT16__        (__AIE_MODEL_VERSION__ >= 10900)
 
 #define __AIE_API_COMPLEX_FP32_EMULATION__    0

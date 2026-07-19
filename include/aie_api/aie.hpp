@@ -72,6 +72,7 @@
 #if AIE_API_ML_VERSION >= 210
 #include "block_vector.hpp"
 #endif
+#include "cascade.hpp"
 #include "concepts.hpp"
 #include "expr.hpp"
 #include "fft.hpp"
