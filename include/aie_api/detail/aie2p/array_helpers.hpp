@@ -444,11 +444,11 @@ protected:
 
 private:
 #if AIE_API_NATIVE
-    using ptr_type = native_pointer_type *;
+    using ptr_type = add_memory_bank_t<Resource, native_pointer_type> *;
 #else
     using ptr_type = std::conditional_t<Restrict,
-                                        native_pointer_type * __restrict,
-                                        native_pointer_type *>;
+                                        add_memory_bank_t<Resource, native_pointer_type> * __restrict,
+                                        add_memory_bank_t<Resource, native_pointer_type> *>;
 #endif
 
 #if __AIE_ARCH__ == 22
@@ -834,11 +834,11 @@ private:
     }
 
 #if AIE_API_NATIVE
-    using ptr_type = native_pointer_type *;
+    using ptr_type = add_memory_bank_t<Resource, native_pointer_type> *;
 #else
     using ptr_type = std::conditional_t<Restrict,
-                                        native_pointer_type * __restrict,
-                                        native_pointer_type *>;
+                                        add_memory_bank_t<Resource, native_pointer_type> * __restrict,
+                                        add_memory_bank_t<Resource, native_pointer_type> *>;
 #endif
 
     unsigned load_count_;
