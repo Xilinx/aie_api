@@ -1,6 +1,7 @@
 var topics =
 [
     [ "Basic Types", "group__group__basic__types.html", "group__group__basic__types" ],
+    [ "Configuration", "group__group__config.html", "group__group__config" ],
     [ "Memory", "group__group__memory.html", "group__group__memory" ],
     [ "Initialization", "group__group__init.html", "group__group__init" ],
     [ "Arithmetic", "group__group__arithmetic.html", "group__group__arithmetic" ],

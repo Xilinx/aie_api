@@ -15,10 +15,13 @@ var searchData=
   ['unary_5fop_3c_20parent_2c_20operation_3a_3anone_20_3e_12',['unary_op&lt; Parent, Operation::None &gt;',['../structaie_1_1unary__op_3_01Parent_00_01Operation_1_1None_01_4.html',1,'aie']]],
   ['unary_5fop_3c_20parent_2c_20operation_3a_3atranspose_20_3e_13',['unary_op&lt; Parent, Operation::Transpose &gt;',['../structaie_1_1unary__op_3_01Parent_00_01Operation_1_1Transpose_01_4.html',1,'aie']]],
   ['unary_5fop_5fcommon_14',['unary_op_common',['../structaie_1_1unary__op__common.html',1,'aie']]],
-  ['unary_5fop_5fcommon_3c_20parent_2c_20operation_3a_3aabs_20_3e_15',['unary_op_common&lt; Parent, Operation::Abs &gt;',['../structaie_1_1unary__op__common.html',1,'aie']]],
-  ['unary_5fop_5fcommon_3c_20parent_2c_20operation_3a_3aacc_5fadd_20_3e_16',['unary_op_common&lt; Parent, Operation::Acc_Add &gt;',['../structaie_1_1unary__op__common.html',1,'aie']]],
-  ['unary_5fop_5fcommon_3c_20parent_2c_20operation_3a_3aacc_5fsub_20_3e_17',['unary_op_common&lt; Parent, Operation::Acc_Sub &gt;',['../structaie_1_1unary__op__common.html',1,'aie']]],
-  ['unary_5fop_5fcommon_3c_20parent_2c_20operation_3a_3aconj_20_3e_18',['unary_op_common&lt; Parent, Operation::Conj &gt;',['../structaie_1_1unary__op__common.html',1,'aie']]],
-  ['unary_5fop_5fcommon_3c_20parent_2c_20operation_3a_3anone_20_3e_19',['unary_op_common&lt; Parent, Operation::None &gt;',['../structaie_1_1unary__op__common.html',1,'aie']]],
-  ['unary_5fop_5fcommon_3c_20parent_2c_20operation_3a_3atranspose_20_3e_20',['unary_op_common&lt; Parent, Operation::Transpose &gt;',['../structaie_1_1unary__op__common.html',1,'aie']]]
+  ['unary_5fop_5fcommon_5fconst_15',['unary_op_common_const',['../structaie_1_1unary__op__common__const.html',1,'aie']]],
+  ['unary_5fop_5fcommon_5fconst_3c_20parent_2c_20operation_3a_3aabs_20_3e_16',['unary_op_common_const&lt; Parent, Operation::Abs &gt;',['../structaie_1_1unary__op__common__const.html',1,'aie']]],
+  ['unary_5fop_5fcommon_5fconst_3c_20parent_2c_20operation_3a_3aacc_5fadd_20_3e_17',['unary_op_common_const&lt; Parent, Operation::Acc_Add &gt;',['../structaie_1_1unary__op__common__const.html',1,'aie']]],
+  ['unary_5fop_5fcommon_5fconst_3c_20parent_2c_20operation_3a_3aacc_5fsub_20_3e_18',['unary_op_common_const&lt; Parent, Operation::Acc_Sub &gt;',['../structaie_1_1unary__op__common__const.html',1,'aie']]],
+  ['unary_5fop_5fcommon_5fconst_3c_20parent_2c_20operation_3a_3aconj_20_3e_19',['unary_op_common_const&lt; Parent, Operation::Conj &gt;',['../structaie_1_1unary__op__common__const.html',1,'aie']]],
+  ['unary_5fop_5fcommon_5fconst_3c_20parent_2c_20operation_3a_3anone_20_3e_20',['unary_op_common_const&lt; Parent, Operation::None &gt;',['../structaie_1_1unary__op__common__const.html',1,'aie']]],
+  ['unary_5fop_5fcommon_5fconst_3c_20parent_2c_20operation_3a_3atranspose_20_3e_21',['unary_op_common_const&lt; Parent, Operation::Transpose &gt;',['../structaie_1_1unary__op__common__const.html',1,'aie']]],
+  ['unary_5fop_5fcommon_5fref_22',['unary_op_common_ref',['../structaie_1_1unary__op__common__ref.html',1,'aie']]],
+  ['unary_5fop_5fcommon_5fref_3c_20parent_2c_20operation_3a_3anone_20_3e_23',['unary_op_common_ref&lt; Parent, Operation::None &gt;',['../structaie_1_1unary__op__common__ref.html',1,'aie']]]
 ];

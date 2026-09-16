@@ -7,5 +7,6 @@ var searchData=
   ['adf_20graph_20abstractions_4',['Interoperability with Adaptive Data Flow (ADF) Graph Abstractions',['../group__group__adf.html',1,'']]],
   ['and_20accumulator_20conversions_5',['Vector and Accumulator Conversions',['../group__group__basic__types__conversion.html',1,'']]],
   ['and_20classes_6',['Uility functions and classes',['../group__group__utility__functions.html',1,'']]],
-  ['arithmetic_7',['Arithmetic',['../group__group__arithmetic.html',1,'']]]
+  ['architecture_20helpers_7',['Architecture helpers',['../group__group__utility__arch.html',1,'']]],
+  ['arithmetic_8',['Arithmetic',['../group__group__arithmetic.html',1,'']]]
 ];

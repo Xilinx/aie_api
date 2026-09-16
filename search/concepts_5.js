@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['nativeaccumtype_0',['NativeAccumType',['../conceptaie_1_1NativeAccumType.html',1,'aie']]],
-  ['nativevectortype_1',['NativeVectorType',['../conceptaie_1_1NativeVectorType.html',1,'aie']]]
+  ['mask_0',['Mask',['../conceptaie_1_1Mask.html',1,'aie']]],
+  ['mmul_1',['Mmul',['../conceptaie_1_1Mmul.html',1,'aie']]],
+  ['mmulorop_2',['MmulOrOp',['../conceptaie_1_1MmulOrOp.html',1,'aie']]]
 ];

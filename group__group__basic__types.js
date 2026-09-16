@@ -5,7 +5,7 @@ var group__group__basic__types =
     [ "Concepts for Basic Types", "group__group__basic__types__concepts.html", "group__group__basic__types__concepts" ],
     [ "Accumulator Element Types", "group__group__basic__types__accum.html", "group__group__basic__types__accum" ],
     [ "Lazy Operations", "group__group__basic__types__ops.html", "group__group__basic__types__ops" ],
-    [ "aie::accum< MinAccumTag, Elems >", "group__group__basic__types.html#classaie_1_1accum", [
+    [ "aie::accum&lt; MinAccumTag, Elems &gt;", "group__group__basic__types.html#classaie_1_1accum", [
       [ "storage_t", "group__group__basic__types.html#a022b5b172dd90a4335eaae0f24cd91a9", null ],
       [ "value_type", "group__group__basic__types.html#a989114d984d4eb6c964db46c0603b83e", null ],
       [ "accum", "group__group__basic__types.html#a39a42b49ba0bc5e2c4895713e51713d7", null ],
@@ -42,25 +42,35 @@ var group__group__basic__types =
       [ "accum", "group__group__basic__types.html#a70d030861939bb3448f7871736a8243c", null ],
       [ "accum_base", "group__group__basic__types.html#a89a1af9d91580a0a68958c69d0e23b9e", null ]
     ] ],
-    [ "aie::mask< Elems >", "group__group__basic__types.html#classaie_1_1mask", [
+    [ "aie::mask&lt; Elems &gt;", "group__group__basic__types.html#classaie_1_1mask", [
       [ "mask", "group__group__basic__types.html#a671a2bd5edee08da6959e4d6311804d0", null ],
-      [ "mask", "group__group__basic__types.html#a79c2cfcd30635e6dfa56d9e11d75fa29", null ],
+      [ "mask", "group__group__basic__types.html#a6f39c806c35aa972fc3cc028b2c689f3", null ],
+      [ "mask", "group__group__basic__types.html#aadbb14b892abba6610bd4a7928b60535", null ],
       [ "clear", "group__group__basic__types.html#af15aa0fad6d0f1f8111a9d461f1e6f11", null ],
       [ "clz", "group__group__basic__types.html#a197f9336e073a37596b2698ba3da6311", null ],
       [ "count", "group__group__basic__types.html#afe470fe542bcb75ce1200444737b6a70", null ],
-      [ "data", "group__group__basic__types.html#a07eb0cf0671ae4136d7e6a76790d9f35", null ],
+      [ "data", "group__group__basic__types.html#a5b3b5cacf4ed76d8607293d9a160c113", null ],
       [ "empty", "group__group__basic__types.html#a559ba62343852e1b6acba17a43f143b1", null ],
       [ "extract", "group__group__basic__types.html#a2015e51f4bdf3d83e1e0bccf0138045b", null ],
-      [ "from_masks", "group__group__basic__types.html#a522b79d75f938dfcc7db09df535d9203", null ],
-      [ "from_uint32", "group__group__basic__types.html#ac7668c1751bd4b9238bd74db5415e705", null ],
-      [ "from_uint64", "group__group__basic__types.html#a651660bcabf73e73c1b1d856135816e1", null ],
+      [ "from_masks", "group__group__basic__types.html#a59157356cc642d1c7ea8a7c532d7ad80", null ],
+      [ "from_masks", "group__group__basic__types.html#aa97db27ac079132f056497eb4841e027", null ],
+      [ "from_uint32", "group__group__basic__types.html#a9fe92053e17e13ffe7f2a314597e6a4f", null ],
+      [ "from_uint32", "group__group__basic__types.html#ad444ae1765df0566648ec1594eac5fe7", null ],
+      [ "from_uint32", "group__group__basic__types.html#a972296b7bdc4a35b5dce2869daca04c5", null ],
+      [ "from_uint64", "group__group__basic__types.html#a78b4f66fd5f16414d733547206267f56", null ],
+      [ "from_uint64", "group__group__basic__types.html#a77397560d0e21e0fc90674c7efbd7973", null ],
+      [ "from_uint64", "group__group__basic__types.html#a42db02a659f6f6377c94f7bf061940d1", null ],
+      [ "from_uint64", "group__group__basic__types.html#a42db02a659f6f6377c94f7bf061940d1", null ],
+      [ "from_vector", "group__group__basic__types.html#a154b32ac73a4c4ad22461aed83ac3441", null ],
       [ "full", "group__group__basic__types.html#a3da162d4ef1d44941afe447f20c1be6a", null ],
       [ "get_submask", "group__group__basic__types.html#ace366e04ba236a086d1dda4853300740", null ],
+      [ "grow", "group__group__basic__types.html#a5fc15480526f2c31aac3e059d2a14108", null ],
       [ "insert", "group__group__basic__types.html#aecf1c11843786f5d1cd9077c0005ba03", null ],
       [ "operator&", "group__group__basic__types.html#a24aaaad0d1c4f57dd944dc84674fb4cf", null ],
       [ "operator&=", "group__group__basic__types.html#a02f97e9bef0e145f0e82e1add7bdfc72", null ],
       [ "operator<<", "group__group__basic__types.html#acd1d5ed5148d49ce483cd1cbaf118d43", null ],
       [ "operator<<=", "group__group__basic__types.html#a4b4298886b21b529625213e07a9a69c4", null ],
+      [ "operator=", "group__group__basic__types.html#a25cb72af255db18995bea51954f572d1", null ],
       [ "operator==", "group__group__basic__types.html#ab0466242bfe5d54fe7a6995f601598d1", null ],
       [ "operator>>", "group__group__basic__types.html#ac624559da5df0edf6cd1de10fecd8ca5", null ],
       [ "operator>>=", "group__group__basic__types.html#a3ebfbf4935749b45d161eaebf22c4b94", null ],
@@ -72,11 +82,13 @@ var group__group__basic__types =
       [ "test", "group__group__basic__types.html#a548365e835c1fe2cc897e806947f50d4", null ],
       [ "to_uint32", "group__group__basic__types.html#a9ee44e2189498e70f29a9b5fa2998878", null ],
       [ "to_uint32", "group__group__basic__types.html#a1bd63c634dff37f37e7028d4e8914c22", null ],
-      [ "to_uint64", "group__group__basic__types.html#a3a915d124dae55cd4f79b034634d96bb", null ],
+      [ "to_uint64", "group__group__basic__types.html#ab29d413a1fe4f3dfa365c30a6142da0e", null ],
       [ "to_uint64", "group__group__basic__types.html#ae840980265beced649567c00f291d050", null ],
-      [ "mask", "group__group__basic__types.html#a2f91301328c7f83c710a3bc6a5931c87", null ]
+      [ "to_vector", "group__group__basic__types.html#a7221b3c34eb95b1ad038ac52362177a0", null ],
+      [ "mask", "group__group__basic__types.html#a2f91301328c7f83c710a3bc6a5931c87", null ],
+      [ "detail::mask_base", "group__group__basic__types.html#a09249cac7f3663c0e2665f44094cfe97", null ]
     ] ],
-    [ "aie::sparse_vector< T, Elems >", "group__group__basic__types.html#classaie_1_1sparse__vector", [
+    [ "aie::sparse_vector&lt; T, Elems &gt;", "group__group__basic__types.html#classaie_1_1sparse__vector", [
       [ "native_pointer_type", "group__group__basic__types.html#ac319e9415dffb257a5ef8143359b1bd2", null ],
       [ "native_type", "group__group__basic__types.html#a1c0899d0d48314a5b258b9e1e3562956", null ],
       [ "storage_t", "group__group__basic__types.html#a8f4577aabf6266081ee5d107b288aafa", null ],
@@ -100,7 +112,7 @@ var group__group__basic__types =
       [ "sparsity_ratio", "group__group__basic__types.html#ae18361702d912e6f7e7f5a3b912b0534", null ],
       [ "sparse_vector", "group__group__basic__types.html#ac47d0156921c603204965b21c268aa73", null ]
     ] ],
-    [ "aie::vector< T, Elems >", "group__group__basic__types.html#classaie_1_1vector", [
+    [ "aie::vector&lt; T, Elems &gt;", "group__group__basic__types.html#classaie_1_1vector", [
       [ "native_type", "group__group__basic__types.html#a76955b55c9984ee471dac51731285944", null ],
       [ "storage_t", "group__group__basic__types.html#a0270f9234e3bb9ed2ccc52b84d5dea83", null ],
       [ "value_type", "group__group__basic__types.html#a7bf524c4b3054fa5591657ad49b166f5", null ],
@@ -147,7 +159,7 @@ var group__group__basic__types =
       [ "vector", "group__group__basic__types.html#aaf65fe3a2cc3c4d2db838ab63743609a", null ],
       [ "detail::vector_base", "group__group__basic__types.html#a1c7dfc7ad96dc895f9cbeb78a29bbb66", null ]
     ] ],
-    [ "aie::vector_elem_const_ref< T, N >", "group__group__basic__types.html#classaie_1_1vector__elem__const__ref", [
+    [ "aie::vector_elem_const_ref&lt; T, N &gt;", "group__group__basic__types.html#classaie_1_1vector__elem__const__ref", [
       [ "parent_type", "group__group__basic__types.html#ade024c30432352eb894d9dab74538f78", null ],
       [ "value_type", "group__group__basic__types.html#acdbe28b9176d9899df57d4dd30b9a139", null ],
       [ "vector_type", "group__group__basic__types.html#a39c1524a7d3e96710175f097dbf719d9", null ],
@@ -163,7 +175,7 @@ var group__group__basic__types =
       [ "offset", "group__group__basic__types.html#a2dc80f43e6f96878acd7e492445cb236", null ],
       [ "parent", "group__group__basic__types.html#a98c3ecf5979423e0ae74ad63e4452b1a", null ]
     ] ],
-    [ "aie::vector_elem_ref< T, N >", "group__group__basic__types.html#classaie_1_1vector__elem__ref", [
+    [ "aie::vector_elem_ref&lt; T, N &gt;", "group__group__basic__types.html#classaie_1_1vector__elem__ref", [
       [ "parent_type", "group__group__basic__types.html#afa2abb4b8e26f63d07d7140026109c2d", null ],
       [ "value_type", "group__group__basic__types.html#a9810355a220b6482513bf8babfa47307", null ],
       [ "vector_type", "group__group__basic__types.html#a34ddec91e0fd525cf9ab6285aaa6c7a4", null ],

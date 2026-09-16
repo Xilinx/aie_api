@@ -1,6 +1,6 @@
 var group__group__memory =
 [
-    [ "aie::circular_iterator< T, Size, Resource >", "group__group__memory.html#classaie_1_1circular__iterator", [
+    [ "aie::circular_iterator&lt; T, Size, Resource &gt;", "group__group__memory.html#classaie_1_1circular__iterator", [
       [ "difference_type", "group__group__memory.html#a19b4129a5fdd2f4f09ee3813251b6260", null ],
       [ "iterator_category", "group__group__memory.html#ae038e117a01565fae1ddab55ccfb0b47", null ],
       [ "pointer", "group__group__memory.html#aa0989905dd8f0e5dd139969e03b318e9", null ],
@@ -13,7 +13,7 @@ var group__group__memory =
       [ "operator->", "group__group__memory.html#a8eaf0dab358c278409081593bb11d8da", null ],
       [ "operator==", "group__group__memory.html#a1ab9c732a24aac876e313050dd6150c9", null ]
     ] ],
-    [ "aie::random_circular_iterator< T, Size, Resource >", "group__group__memory.html#classaie_1_1random__circular__iterator", [
+    [ "aie::random_circular_iterator&lt; T, Size, Resource &gt;", "group__group__memory.html#classaie_1_1random__circular__iterator", [
       [ "difference_type", "group__group__memory.html#a95219ca62553dd658c7d54bda05fee59", null ],
       [ "iterator_category", "group__group__memory.html#a56bdb2845bfb2744f1799885ad6f3e8e", null ],
       [ "pointer", "group__group__memory.html#a754aa68c8d93c157230b9a218f8334d8", null ],
@@ -31,13 +31,13 @@ var group__group__memory =
       [ "operator==", "group__group__memory.html#a40ae7dc37afa195325d1563fb71282a5", null ],
       [ "operator[]", "group__group__memory.html#ac81d159cf6b47a26844ac176616212a1", null ]
     ] ],
-    [ "aie::sparse_vector_input_buffer_stream< T, Elems, Resource >", "group__group__memory.html#classaie_1_1sparse__vector__input__buffer__stream", null ],
-    [ "aie::unaligned_vector_input_buffer_stream< T, Elems, Resource >", "group__group__memory.html#classaie_1_1unaligned__vector__input__buffer__stream", [
+    [ "aie::sparse_vector_input_buffer_stream&lt; T, Elems, Resource &gt;", "group__group__memory.html#classaie_1_1sparse__vector__input__buffer__stream", null ],
+    [ "aie::unaligned_vector_input_buffer_stream&lt; T, Elems, Resource &gt;", "group__group__memory.html#classaie_1_1unaligned__vector__input__buffer__stream", [
       [ "vector_type", "group__group__memory.html#aad2fe25ae3bfe949a38ac690f8a6a864", null ],
       [ "operator>>", "group__group__memory.html#a6416a065759eb2c270eb8299c6007439", null ],
       [ "pop", "group__group__memory.html#a0e3c078b07ef3ee30511e289e7e5ce06", null ]
     ] ],
-    [ "aie::unaligned_vector_iterator< T, Elems, Resource >", "group__group__memory.html#classaie_1_1unaligned__vector__iterator", [
+    [ "aie::unaligned_vector_iterator&lt; T, Elems, Resource &gt;", "group__group__memory.html#classaie_1_1unaligned__vector__iterator", [
       [ "difference_type", "group__group__memory.html#af37389f22d7bdf31fb90e25bdc4c78c3", null ],
       [ "iterator_category", "group__group__memory.html#af2f8f57359ed789abc0bc66f0e271e78", null ],
       [ "pointer", "group__group__memory.html#ab3c82897931af59ab9ec9ece8d99ad3b", null ],
@@ -50,12 +50,12 @@ var group__group__memory =
       [ "operator->", "group__group__memory.html#ae8e70a238bde274ef34ba816ed95f044", null ],
       [ "operator==", "group__group__memory.html#a5b7f56adf23daa820fe9cb0dd703a725", null ]
     ] ],
-    [ "aie::unaligned_vector_output_buffer_stream< T, Elems, Resource >", "group__group__memory.html#classaie_1_1unaligned__vector__output__buffer__stream", [
+    [ "aie::unaligned_vector_output_buffer_stream&lt; T, Elems, Resource &gt;", "group__group__memory.html#classaie_1_1unaligned__vector__output__buffer__stream", [
       [ "vector_type", "group__group__memory.html#ac77b4fbc49e06537f8ff0828087dc4d0", null ],
       [ "operator<<", "group__group__memory.html#a14223342c86e96025ff72e1381afc26e", null ],
       [ "push", "group__group__memory.html#a889baf38c513811ef1450fac5b2d8160", null ]
     ] ],
-    [ "aie::vector_circular_iterator< T, Elems, Size, Resource >", "group__group__memory.html#classaie_1_1vector__circular__iterator", [
+    [ "aie::vector_circular_iterator&lt; T, Elems, Size, Resource &gt;", "group__group__memory.html#classaie_1_1vector__circular__iterator", [
       [ "difference_type", "group__group__memory.html#a9ca300599731449a09f8140d4800579b", null ],
       [ "iterator_category", "group__group__memory.html#a497c4e276c912357b5ae3b9e53fe1c87", null ],
       [ "pointer", "group__group__memory.html#a71925b933458c1bada4b32f51f3e8e11", null ],
@@ -68,12 +68,12 @@ var group__group__memory =
       [ "operator->", "group__group__memory.html#ae0182798a6851da43afcdfa8205ddee0", null ],
       [ "operator==", "group__group__memory.html#a16d5cb08a1fa66201e20acd1f69a0dee", null ]
     ] ],
-    [ "aie::vector_input_buffer_stream< T, Elems, Resource >", "group__group__memory.html#classaie_1_1vector__input__buffer__stream", [
+    [ "aie::vector_input_buffer_stream&lt; T, Elems, Resource &gt;", "group__group__memory.html#classaie_1_1vector__input__buffer__stream", [
       [ "vector_type", "group__group__memory.html#aa10722a0d7b3f3e1db367ada7e0c54b3", null ],
       [ "operator>>", "group__group__memory.html#ae6e5014dc1e4c8d83faebe939ac9d863", null ],
       [ "pop", "group__group__memory.html#a25bb512316d2d615e59dc96721f33a49", null ]
     ] ],
-    [ "aie::vector_iterator< T, Elems, Resource >", "group__group__memory.html#classaie_1_1vector__iterator", [
+    [ "aie::vector_iterator&lt; T, Elems, Resource &gt;", "group__group__memory.html#classaie_1_1vector__iterator", [
       [ "difference_type", "group__group__memory.html#a149768c48ebfd081707b7494eb5e91f9", null ],
       [ "iterator_category", "group__group__memory.html#a492f2a43052702d422956c3c82cfe7f8", null ],
       [ "pointer", "group__group__memory.html#ac6568c82957f8aebdba321d01392f378", null ],
@@ -91,12 +91,12 @@ var group__group__memory =
       [ "operator==", "group__group__memory.html#a0a99bd03b0152b192c27a1fc57f59072", null ],
       [ "operator[]", "group__group__memory.html#ab4df7c2c3e6cb915c640407581e0786e", null ]
     ] ],
-    [ "aie::vector_output_buffer_stream< T, Elems, Resource >", "group__group__memory.html#classaie_1_1vector__output__buffer__stream", [
+    [ "aie::vector_output_buffer_stream&lt; T, Elems, Resource &gt;", "group__group__memory.html#classaie_1_1vector__output__buffer__stream", [
       [ "vector_type", "group__group__memory.html#afa8a1170bfb5190e9987908deeb27071", null ],
       [ "operator<<", "group__group__memory.html#a2c3535d89d5d0c0a92a8a5e697db6e06", null ],
       [ "push", "group__group__memory.html#ac8dd9fce33ce696fa08963f6973e6c28", null ]
     ] ],
-    [ "aie::vector_random_circular_iterator< T, Elems, Size, Resource >", "group__group__memory.html#classaie_1_1vector__random__circular__iterator", [
+    [ "aie::vector_random_circular_iterator&lt; T, Elems, Size, Resource &gt;", "group__group__memory.html#classaie_1_1vector__random__circular__iterator", [
       [ "difference_type", "group__group__memory.html#a68b45b80f0e8824f31f71ed99b687029", null ],
       [ "iterator_category", "group__group__memory.html#a82b3cdeb8f23ca61627985b97642c078", null ],
       [ "pointer", "group__group__memory.html#abeb5dd48f5186c537bb1349f90f1cf5e", null ],
@@ -120,6 +120,20 @@ var group__group__memory =
     [ "aie::const_vector_circular_iterator", "group__group__memory.html#ga85071be2b83243cc38bfd58da6e01c59", null ],
     [ "aie::const_vector_iterator", "group__group__memory.html#ga7697b81c3eaededfe8ec5d1f83af1e77", null ],
     [ "aie::const_vector_random_circular_iterator", "group__group__memory.html#gac4ffcee22b253524b757cbf6a2ae39bf", null ],
+    [ "aie_dm_resource", "group__group__memory.html#ga27e1420060b652b4dd5828e4a728604d", [
+      [ "aie_dm_resource::none", "group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da334c4a4c42fdb79d7ebc3e73b517e6f8", null ],
+      [ "aie_dm_resource::a", "group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da0cc175b9c0f1b6a831c399e269772661", null ],
+      [ "aie_dm_resource::b", "group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da92eb5ffee6ae2fec3ad71c777531578f", null ],
+      [ "aie_dm_resource::c", "group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da4a8a08f09d37b73795649038408b5f33", null ],
+      [ "aie_dm_resource::d", "group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da8277e0910d750195b448797616e091ad", null ],
+      [ "aie_dm_resource::stack", "group__group__memory.html#gga27e1420060b652b4dd5828e4a728604dafac2a47adace059aff113283a03f6760", null ],
+      [ "aie_dm_resource::ab", "group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da187ef4436122d1cc2f40dc2b92f0eba0", null ],
+      [ "aie_dm_resource::ac", "group__group__memory.html#gga27e1420060b652b4dd5828e4a728604dae2075474294983e013ee4dd2201c7a73", null ],
+      [ "aie_dm_resource::ad", "group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da523af537946b79c4f8369ed39ba78605", null ],
+      [ "aie_dm_resource::bc", "group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da5360af35bde9ebd8f01f492dc059593c", null ],
+      [ "aie_dm_resource::bd", "group__group__memory.html#gga27e1420060b652b4dd5828e4a728604dac419b06b4c6579b50ff05adb3b8424f1", null ],
+      [ "aie_dm_resource::cd", "group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da6865aeb3a9ed28f9a79ec454b259e5d0", null ]
+    ] ],
     [ "aie::begin", "group__group__memory.html#gadf11aba409e1539ad56053e66d50952e", null ],
     [ "aie::begin", "group__group__memory.html#ga99d3f209cc2ac4294d99bda66d0bee1e", null ],
     [ "aie::begin_circular", "group__group__memory.html#gaa0bdacb3ca0a807bbe898f76ab6af66f", null ],
@@ -166,10 +180,27 @@ var group__group__memory =
     [ "aie::load_unaligned_v", "group__group__memory.html#gabf9241284a5d7f94e51ab8260ec2539a", null ],
     [ "aie::load_v", "group__group__memory.html#ga1d143988d732069ef3c66dc6d2ae3ea9", null ],
     [ "aie::load_v", "group__group__memory.html#ga6170e03f2657deaafca5f3fe7604b178", null ],
+    [ "aie::make_restrict_tensor_buffer_stream", "group__group__memory.html#ga07b8bc75574c405a8d414dac188efd2d", null ],
+    [ "aie::make_tensor_buffer_stream", "group__group__memory.html#ga2ae122d31c55434aee43656ac065fe2b", null ],
+    [ "aie::make_tensor_buffer_stream", "group__group__memory.html#ga65764350fdafee9d995dd0800c347a5b", null ],
+    [ "aie::make_tensor_descriptor", "group__group__memory.html#ga090a9f9f46df314bc9d5a10040ff2570", null ],
+    [ "aie::make_tensor_descriptor", "group__group__memory.html#ga4f043d20bef0c028960977ca2c7554c0", null ],
+    [ "aie::make_tensor_descriptor", "group__group__memory.html#ga8b9eebcb38bf2da4f90ff2e76611716f", null ],
+    [ "aie::make_tensor_descriptor", "group__group__memory.html#ga254af9902484321060cafa10082ce3db", null ],
+    [ "aie::make_tensor_descriptor", "group__group__memory.html#gad507d465a848090a1777cb109a146438", null ],
+    [ "aie::make_tensor_descriptor_bytes", "group__group__memory.html#gafbcfab6477fb20d1dd9f23451ff15c96", null ],
+    [ "aie::make_tensor_descriptor_bytes", "group__group__memory.html#ga337eacdd063a4d4d8414d535e2c6669e", null ],
+    [ "aie::make_tensor_descriptor_bytes", "group__group__memory.html#gae214bcbb17af78cb4d0297ef82e058d8", null ],
+    [ "aie::make_tensor_descriptor_from_native", "group__group__memory.html#ga09ad5c04d3a446309f8e4a32e68c6705", null ],
+    [ "aie::make_tensor_descriptor_from_native", "group__group__memory.html#ga7ac35877fa9caceea7386b95a7462081", null ],
+    [ "aie::make_tensor_descriptor_from_native_bytes", "group__group__memory.html#ga6f74ca1dead68063f2c4d0dd029946be", null ],
+    [ "aie::make_tensor_descriptor_from_native_bytes", "group__group__memory.html#gafbdd58cc1f547d7c0b5fcc183172a01b", null ],
+    [ "aie::make_unaligned_tensor_buffer_stream", "group__group__memory.html#ga1099cf2016f4a6bf365030c28869b025", null ],
     [ "aie::store_floor_bytes_v", "group__group__memory.html#gaa252aef409f9ad6e44de61cb91f2ff10", null ],
     [ "aie::store_floor_v", "group__group__memory.html#gab3802e73e7c1a10925fdfca13508bda3", null ],
     [ "aie::store_unaligned_v", "group__group__memory.html#ga8b750a16fa9d84ae0c20e190962d97e1", null ],
     [ "aie::store_v", "group__group__memory.html#gaa134a9db67641fc7ee69be78c7b00bf6", null ],
     [ "aie::vector_decl_align", "group__group__memory.html#gac0cd7fb3077c2394beef755dc918ba17", null ],
+    [ "aie::vector_ldst_align_elems_v", "group__group__memory.html#ga2b24fa5d21a39f6ae521e4692bca965f", null ],
     [ "aie::vector_ldst_align_v", "group__group__memory.html#gacabd4a61a97035597a9f430deb27df9a", null ]
 ];

@@ -1,6 +1,22 @@
 var group__group__mul__special =
 [
-    [ "aie::sliding_mul_ch_ops< Outputs, Channels, Points, CoeffStep, DataStepX, DataStepY, CoeffType, DataType, AccumTag >", "group__group__mul__special.html#structaie_1_1sliding__mul__ch__ops", [
+    [ "aie::partial_sliding_mul&lt; Lanes, Points, CoeffStep, DataStepX, DataStepY, CoeffType, DataType, AccumTag &gt;", "group__group__mul__special.html#classaie_1_1partial__sliding__mul", [
+      [ "accum_type", "group__group__mul__special.html#acf74c0c95fcc43577920500b4e69fa1a", null ],
+      [ "real_accum_type", "group__group__mul__special.html#aa43c904c2e3501f16d48ce7c664aadba", null ],
+      [ "partial_sliding_mul", "group__group__mul__special.html#a9ece79becd98772c255091cdcccad04d", null ],
+      [ "partial_sliding_mul", "group__group__mul__special.html#aaae5e55f981cf5177b93e12f4d39ae92", null ],
+      [ "partial_sliding_mul", "group__group__mul__special.html#a5a3321c3365a25a1b050d7f0b27c077b", null ],
+      [ "partial_sliding_mul", "group__group__mul__special.html#a62c777b1f203f8fc3d3d384ffcbcce32", null ],
+      [ "mac", "group__group__mul__special.html#a73a046125f2a3230373f5212005b42a5", null ],
+      [ "mul", "group__group__mul__special.html#a03aa737c39c86e084b5a06cd9db27e7b", null ],
+      [ "to_accum", "group__group__mul__special.html#a692dbeec50cd3bcc9a6a9c56a98d6995", null ],
+      [ "to_accum_components", "group__group__mul__special.html#ac35e2a849e015af03fce79ea9c6da400", null ],
+      [ "to_vector", "group__group__mul__special.html#a2e565af40c4fa0a15336752f04dc87a3", null ],
+      [ "to_vector_components", "group__group__mul__special.html#abcfafd137ed0f7f7175727927634f565", null ],
+      [ "operator<<", "group__group__mul__special.html#a8494baad4bef7e10e020e00f36f08538", null ],
+      [ "operator>>", "group__group__mul__special.html#ad6f44679d408bac8502a7b302577792d", null ]
+    ] ],
+    [ "aie::sliding_mul_ch_ops&lt; Outputs, Channels, Points, CoeffStep, DataStepX, DataStepY, CoeffType, DataType, AccumTag &gt;", "group__group__mul__special.html#structaie_1_1sliding__mul__ch__ops", [
       [ "accum_type", "group__group__mul__special.html#aeb3118d8e147f3afb018986d0a299c7f", null ],
       [ "coeff_type", "group__group__mul__special.html#aab7585e3d446dfc830773f853805f461", null ],
       [ "data_type", "group__group__mul__special.html#a32eb83a9d823e63b55606fe136bcb13e", null ],
@@ -21,7 +37,7 @@ var group__group__mul__special =
       [ "num_mul", "group__group__mul__special.html#a3262389d7d69734e2aa019ca0a44af5e", null ],
       [ "points", "group__group__mul__special.html#abfd9b232a66e9185b47b41dcda891521", null ]
     ] ],
-    [ "aie::sliding_mul_ops< Lanes, Points, CoeffStep, DataStepX, DataStepY, CoeffType, DataType, AccumTag >", "group__group__mul__special.html#structaie_1_1sliding__mul__ops", [
+    [ "aie::sliding_mul_ops&lt; Lanes, Points, CoeffStep, DataStepX, DataStepY, CoeffType, DataType, AccumTag &gt;", "group__group__mul__special.html#structaie_1_1sliding__mul__ops", [
       [ "accum_type", "group__group__mul__special.html#a2a71c6acabc98e699ef53dfebd30c9f5", null ],
       [ "coeff_type", "group__group__mul__special.html#af965b6a6a9fca7c197ebc37ac32d7742", null ],
       [ "data_type", "group__group__mul__special.html#a73d5a4afc1c020bd09ff982d0def44fc", null ],
@@ -41,7 +57,7 @@ var group__group__mul__special =
       [ "num_mul", "group__group__mul__special.html#a139d4692b24d9522b3daf64b3011e4e8", null ],
       [ "points", "group__group__mul__special.html#aa36a5337989eb1ec9c37d1250499b6e4", null ]
     ] ],
-    [ "aie::sliding_mul_sym_ops< Lanes, Points, CoeffStep, DataStepX, DataStepY, CoeffType, DataType, AccumTag >", "group__group__mul__special.html#structaie_1_1sliding__mul__sym__ops", [
+    [ "aie::sliding_mul_sym_ops&lt; Lanes, Points, CoeffStep, DataStepX, DataStepY, CoeffType, DataType, AccumTag &gt;", "group__group__mul__special.html#structaie_1_1sliding__mul__sym__ops", [
       [ "accum_type", "group__group__mul__special.html#ac97a73ca4a53ede2d46a95230db5ab64", null ],
       [ "coeff_type", "group__group__mul__special.html#ae6499b4446111d79b36ea2f53134c538", null ],
       [ "data_type", "group__group__mul__special.html#aca74fd2d5d7c76d38db74f1d343cf1db", null ],
@@ -73,7 +89,7 @@ var group__group__mul__special =
       [ "num_mul", "group__group__mul__special.html#ad8588e2d95b3bf2d971bde93965f7fb7", null ],
       [ "points", "group__group__mul__special.html#af38511ab92b1bfa6ec41758e9c96e2d4", null ]
     ] ],
-    [ "aie::sliding_mul_sym_uct_ops< Lanes, Points, CoeffStep, DataStep, CoeffType, DataType, AccumTag >", "group__group__mul__special.html#structaie_1_1sliding__mul__sym__uct__ops", [
+    [ "aie::sliding_mul_sym_uct_ops&lt; Lanes, Points, CoeffStep, DataStep, CoeffType, DataType, AccumTag &gt;", "group__group__mul__special.html#structaie_1_1sliding__mul__sym__uct__ops", [
       [ "accum_type", "group__group__mul__special.html#a6707ce19b350677e102347de04d5c3ac", null ],
       [ "coeff_type", "group__group__mul__special.html#afcd60c5b131505fcec4099b5568ffedf", null ],
       [ "data_type", "group__group__mul__special.html#a175cbdac33c69e600081f73446cbf112", null ],

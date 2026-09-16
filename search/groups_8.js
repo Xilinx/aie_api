@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['lazy_20operations_0',['Lazy Operations',['../group__group__basic__types__ops.html',1,'']]],
-  ['lookup_20tables_1',['Lookup Tables',['../group__group__lut.html',1,'']]],
-  ['loop_20unrolling_20functions_2',['Loop unrolling functions',['../group__group__utility__unroll.html',1,'']]]
+  ['initialization_0',['Initialization',['../group__group__basic__types__initialization.html',1,'Basic Type Initialization'],['../group__group__init.html',1,'Initialization']]],
+  ['interoperability_20with_20adaptive_20data_20flow_20adf_20graph_20abstractions_1',['Interoperability with Adaptive Data Flow (ADF) Graph Abstractions',['../group__group__adf.html',1,'']]]
 ];

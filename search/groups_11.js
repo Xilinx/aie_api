@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['with_20adaptive_20data_20flow_20adf_20graph_20abstractions_0',['Interoperability with Adaptive Data Flow (ADF) Graph Abstractions',['../group__group__adf.html',1,'']]]
+  ['uility_20functions_20and_20classes_0',['Uility functions and classes',['../group__group__utility__functions.html',1,'']]],
+  ['unrolling_1',['Loop unrolling',['../group__group__utility__unroll.html',1,'']]]
 ];

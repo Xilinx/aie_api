@@ -27,7 +27,9 @@ var NAVTREE =
   [ "AI Engine API User Guide", "index.html", [
     [ "Overview", "index.html", null ],
     [ "Changelog", "changelog.html", [
-      [ "January 2025", "changelog.html#jan_2025", null ],
+      [ "Vitis 2026.1", "changelog.html#vitis_2026_1", null ],
+      [ "Vitis 2025.2", "changelog.html#vitis_2025_2", null ],
+      [ "Vitis 2025.1", "changelog.html#vitis_2025_1", null ],
       [ "Vitis 2024.2", "changelog.html#vitis_2024_2", null ],
       [ "Vitis 2024.1", "changelog.html#vitis_2024_1", null ],
       [ "Vitis 2023.2", "changelog.html#vitis_2023_2", null ],
@@ -44,10 +46,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "changelog.html",
-"group__group__basic__types.html#a8f4577aabf6266081ee5d107b288aafa",
-"group__group__memory.html#a083a4f74ef0098c45742acee3e594a3b",
-"group__group__mul__special.html#ac765de9e9b27085136c8d9234d05740e"
+"group__group__basic__types.html#a5fc15480526f2c31aac3e059d2a14108",
+"group__group__fft.html#ga009c088fea4608539064a3a9a3211568",
+"group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da8277e0910d750195b448797616e091ad",
+"group__group__utility__print.html#gad47c2c065fd0c9a9b979504329f959f3"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
 var SYNCOFFMSG = 'click to enable panel synchronization';
+var LISTOFALLMEMBERS = 'List of all members';

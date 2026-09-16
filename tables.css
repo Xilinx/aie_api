@@ -1,3 +1,7 @@
+/* SPDX-License-Identifier: MIT */
+/* Copyright (C) 2022 Xilinx, Inc. */
+/* Copyright (C) 2022-2026 Advanced Micro Devices, Inc. */
+
 /* Style for table rows containing headers
  *
  * - Align to bottom so that headers with and without super-indices are aligned.
@@ -10,4 +14,21 @@ table.doxtable th {
     position: sticky;
     top: 0;
     z-index: 1;
+    white-space: nowrap;
+}
+table.doxtable td {
+    white-space: nowrap;
+}
+/* Definition lists, avoid newline between term and description */
+dl.footnote {
+    display: block;
+}
+.footnote dd {
+}
+.footnote dt {
+    padding-right: 10pt;
+    font-style: italic;
+    font-weight: normal !important;
+    float: left;
+    clear: left;
 }

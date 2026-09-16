@@ -7,7 +7,6 @@ var group__group__basic__types__accum =
     [ "acc64", "group__group__basic__types__accum.html#structacc64", null ],
     [ "acc72", "group__group__basic__types__accum.html#structacc72", null ],
     [ "acc80", "group__group__basic__types__accum.html#structacc80", null ],
-    [ "accauto", "group__group__basic__types__accum.html#structaccauto", null ],
     [ "accfloat", "group__group__basic__types__accum.html#structaccfloat", null ],
     [ "cacc32", "group__group__basic__types__accum.html#structcacc32", null ],
     [ "cacc40", "group__group__basic__types__accum.html#structcacc40", null ],

@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['ceil_0',['ceil',['../namespaceaie.html#a2f5a93422bf82f6144037f0c37071119a6fee666d16bfa3ecbc516290cb59aa0a',1,'aie']]],
-  ['conj_1',['Conj',['../namespaceaie.html#a973928295d182c259e00eca230df0a01a34887261ea65b5a79cbfb009bf372eda',1,'aie']]],
-  ['conv_5feven_2',['conv_even',['../namespaceaie.html#a2f5a93422bf82f6144037f0c37071119ac854af0e50eca2b4357a557646e2530f',1,'aie']]],
-  ['conv_5fodd_3',['conv_odd',['../namespaceaie.html#a2f5a93422bf82f6144037f0c37071119a7039d38357f6d84f56b1bf904793b4d8',1,'aie']]]
+  ['b_0',['b',['../group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da92eb5ffee6ae2fec3ad71c777531578f',1,'aie_doc.hpp']]],
+  ['bc_1',['bc',['../group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da5360af35bde9ebd8f01f492dc059593c',1,'aie_doc.hpp']]],
+  ['bd_2',['bd',['../group__group__memory.html#gga27e1420060b652b4dd5828e4a728604dac419b06b4c6579b50ff05adb3b8424f1',1,'aie_doc.hpp']]]
 ];

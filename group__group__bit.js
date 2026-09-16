@@ -7,7 +7,7 @@ var group__group__bit =
     [ "aie::bit_or", "group__group__bit.html#ga563065be89f272c19b811a39b4ef6785", null ],
     [ "aie::bit_xor", "group__group__bit.html#ga42f00207df4526e07903bfc452f5f533", null ],
     [ "aie::bit_xor", "group__group__bit.html#ga2c33cb3d65fa72701acca1d4a582dfc2", null ],
-    [ "aie::downshift", "group__group__bit.html#gae3dec518599b518dcdec044d4c645c6d", null ],
-    [ "aie::logical_downshift", "group__group__bit.html#ga6e9bcfcf0a7fdb414535c88a38a72993", null ],
-    [ "aie::upshift", "group__group__bit.html#gadc7a8af25608eaa2b2beafc8e09507cb", null ]
+    [ "aie::downshift", "group__group__bit.html#ga01b64cfee4f25d824fd8f6f92ba0c217", null ],
+    [ "aie::logical_downshift", "group__group__bit.html#gad6defd323dc1fe15e798b1b6ec5baff0", null ],
+    [ "aie::upshift", "group__group__bit.html#ga166103aee8a8bd644f76bfd641a14a4f", null ]
 ];

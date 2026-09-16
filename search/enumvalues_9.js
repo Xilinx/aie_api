@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xdna_5f2_0',['XDNA_2',['../group__group__utility__functions.html#a671c2b8e3def407f9379ded985d3e5f5a36503d3b5c086b1ba30335a3ba31b141',1,'aie::arch']]]
+  ['positive_5finf_0',['positive_inf',['../group__group__config.html#gga2f5a93422bf82f6144037f0c37071119a6a84a954ec766fa02eb1ec2450d53732',1,'aie']]]
 ];

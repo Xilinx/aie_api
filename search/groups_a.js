@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['operations_0',['Operations',['../group__group__fp__scalar.html',1,'Floating-point Scalar Operations'],['../group__group__basic__types__ops.html',1,'Lazy Operations']]],
-  ['operator_20overloading_1',['Operator Overloading',['../group__group__operators.html',1,'']]],
-  ['overloading_2',['Operator Overloading',['../group__group__operators.html',1,'']]]
+  ['matrix_20multiplication_0',['Matrix Multiplication',['../group__group__mmul.html',1,'']]],
+  ['memory_1',['Memory',['../group__group__memory.html',1,'']]],
+  ['multiplication_2',['Matrix Multiplication',['../group__group__mmul.html',1,'']]],
+  ['multiplications_3',['Special Multiplications',['../group__group__mul__special.html',1,'']]]
 ];

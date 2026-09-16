@@ -1,7 +1,7 @@
 var group__group__adf =
 [
     [ "aie::aie::TLast", "conceptaie_1_1aie_1_1TLast.html", null ],
-    [ "aie::tlast< T, Bool >", "group__group__adf.html#structaie_1_1tlast", [
+    [ "aie::tlast&lt; T, Bool &gt;", "group__group__adf.html#structaie_1_1tlast", [
       [ "value_type", "group__group__adf.html#ac2334f9ddce1c3004693db0836b7a449", null ],
       [ "tlast", "group__group__adf.html#a3d94bc77e89224b12639efa1bebd1329", null ],
       [ "tlast", "group__group__adf.html#a8638f73a1e6123dce736ed455216c389", null ],
@@ -21,6 +21,8 @@ var group__group__adf =
     [ "aie::begin_vector", "group__group__adf.html#ga308782ca9f6f597d3f21623352c83197", null ],
     [ "aie::begin_vector_circular", "group__group__adf.html#ga080f85e0b2a1b6df009fa0f935a7062a", null ],
     [ "aie::begin_vector_circular", "group__group__adf.html#gaf83f11e1905870604dc47803c4e26ba7", null ],
+    [ "aie::begin_vector_input_buffer_stream", "group__group__adf.html#ga577397b77091660162fe31717b598c83", null ],
+    [ "aie::begin_vector_output_buffer_stream", "group__group__adf.html#gadeb06b4fe88424750ace820ca360d4d1", null ],
     [ "aie::begin_vector_random_circular", "group__group__adf.html#ga9ae0bcc5fb151886de0abd64e7595a14", null ],
     [ "aie::begin_vector_random_circular", "group__group__adf.html#ga12fb02755a066b80daf97de85a5e9f83", null ],
     [ "aie::cbegin", "group__group__adf.html#ga627b5bc50190455e6d88fbe6a8570224", null ],
@@ -29,7 +31,13 @@ var group__group__adf =
     [ "aie::cbegin_restrict_vector", "group__group__adf.html#ga660478b6a8c5acae34789d46d3ebe45f", null ],
     [ "aie::cbegin_vector", "group__group__adf.html#gab74ea229f36c51a4082f630725eb8522", null ],
     [ "aie::cbegin_vector_circular", "group__group__adf.html#ga6f68bea6bdbc5f8d646eb569ad909fe0", null ],
+    [ "aie::cbegin_vector_input_buffer_stream", "group__group__adf.html#ga22388bab1f5e9ecdb6dca2ff494cd0e8", null ],
     [ "aie::cbegin_vector_random_circular", "group__group__adf.html#gaae9dd95f68196812c8ef2ccc2da41c38", null ],
+    [ "aie::make_restrict_tensor_buffer_stream", "group__group__adf.html#ga228bb4a50e294dba3f196afa9e954b62", null ],
+    [ "aie::make_tensor_buffer_stream", "group__group__adf.html#gad5dda5f14a76b912b726f0ec49380e12", null ],
+    [ "aie::make_tensor_buffer_stream", "group__group__adf.html#gadbf5d82bd3d13cb13d2eb2fbea38da96", null ],
+    [ "aie::make_unaligned_tensor_buffer_stream", "group__group__adf.html#ga99b6c98c3104d3b018271373cb25c0b6", null ],
+    [ "aie::make_unaligned_tensor_buffer_stream", "group__group__adf.html#ga3ad59c20fc6b5a6e79ca3f541e49cb92", null ],
     [ "operator<<", "group__group__adf.html#gad0af974ae133554077eb8db12710aead", null ],
     [ "operator<<", "group__group__adf.html#gaa99745e67d6184aa1e21a00ce75d6a17", null ],
     [ "operator<<", "group__group__adf.html#ga8c4b774c4ef1ea1f05737005c9027dfd", null ],
@@ -55,8 +63,8 @@ var group__group__adf =
     [ "operator>>", "group__group__adf.html#gadfcff02434c6547b41e6fbe1c9528837", null ],
     [ "operator>>", "group__group__adf.html#ga1918fc89896c5f05e0cbfef7a8428833", null ],
     [ "readincr_v", "group__group__adf.html#ga7a1a8e77fce2fbfb60af39a9707530de", null ],
-    [ "readincr_v", "group__group__adf.html#gacf6b2ad8a277a81a849e88db2e212fde", null ],
     [ "readincr_v", "group__group__adf.html#ga26580cf8c7089bb08b4bab254b17175b", null ],
+    [ "readincr_v", "group__group__adf.html#gacf6b2ad8a277a81a849e88db2e212fde", null ],
     [ "readincr_v", "group__group__adf.html#ga28796c29b9b11c3083336dd8efea921e", null ],
     [ "window_read_v", "group__group__adf.html#ga604e4107eb42f83c18069f7473db441b", null ],
     [ "window_read_v", "group__group__adf.html#ga7d194fa9dbf5ad2c2af4967e635bd4c7", null ],

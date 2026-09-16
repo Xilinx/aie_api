@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['packablefrom_0',['PackableFrom',['../conceptaie_1_1aie_1_1PackableFrom.html',1,'(Global Namespace)'],['../conceptaie_1_1PackableFrom.html',1,'aie']]],
-  ['parallellut_1',['ParallelLUT',['../conceptaie_1_1aie_1_1ParallelLUT.html',1,'(Global Namespace)'],['../conceptaie_1_1ParallelLUT.html',1,'aie']]]
+  ['nativeaccumtype_0',['NativeAccumType',['../conceptaie_1_1NativeAccumType.html',1,'aie']]],
+  ['nativedim_1',['NativeDim',['../conceptaie_1_1NativeDim.html',1,'aie']]],
+  ['nativeorslidingdim_2',['NativeOrSlidingDim',['../conceptaie_1_1NativeOrSlidingDim.html',1,'aie']]],
+  ['nativevectortype_3',['NativeVectorType',['../conceptaie_1_1NativeVectorType.html',1,'aie']]]
 ];

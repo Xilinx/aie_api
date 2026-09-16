@@ -1,7 +1,9 @@
 <toc label="AI Engine API User Guide" topic="index.html">
   <topic label="Overview" href="index.html"/>
   <topic label="Changelog" href="changelog.html">
-    <topic label="January 2025" href="changelog.html#jan_2025"/>
+    <topic label="Vitis 2026.1" href="changelog.html#vitis_2026_1"/>
+    <topic label="Vitis 2025.2" href="changelog.html#vitis_2025_2"/>
+    <topic label="Vitis 2025.1" href="changelog.html#vitis_2025_1"/>
     <topic label="Vitis 2024.2" href="changelog.html#vitis_2024_2"/>
     <topic label="Vitis 2024.1" href="changelog.html#vitis_2024_1"/>
     <topic label="Vitis 2023.2" href="changelog.html#vitis_2023_2"/>
@@ -24,25 +26,33 @@
         <topic label="aie::vector_cast" href="group__group__basic__types__conversion.html#ga0d47594768da879dc0f3d699f326202e"/>
       </topic>
       <topic label="Concepts for Basic Types" href="group__group__basic__types__concepts.html">
+        <topic label="aie::Accum" href="conceptaie_1_1Accum.html"/>
+        <topic label="aie::AccumElemBaseType" href="conceptaie_1_1AccumElemBaseType.html"/>
+        <topic label="aie::AccumOrOp" href="conceptaie_1_1AccumOrOp.html"/>
         <topic label="aie::aie::ParallelLUT" href="conceptaie_1_1aie_1_1ParallelLUT.html"/>
-        <topic label="aie::aie::ElemBaseType" href="conceptaie_1_1aie_1_1ElemBaseType.html"/>
-        <topic label="aie::aie::Elem" href="conceptaie_1_1aie_1_1Elem.html"/>
-        <topic label="aie::aie::ComplexElem" href="conceptaie_1_1aie_1_1ComplexElem.html"/>
-        <topic label="aie::aie::RealElem" href="conceptaie_1_1aie_1_1RealElem.html"/>
-        <topic label="aie::aie::ElemOrOp" href="conceptaie_1_1aie_1_1ElemOrOp.html"/>
-        <topic label="aie::aie::Vector" href="conceptaie_1_1aie_1_1Vector.html"/>
-        <topic label="aie::aie::ComplexVector" href="conceptaie_1_1aie_1_1ComplexVector.html"/>
-        <topic label="aie::aie::RealVector" href="conceptaie_1_1aie_1_1RealVector.html"/>
-        <topic label="aie::aie::VectorOrOp" href="conceptaie_1_1aie_1_1VectorOrOp.html"/>
-        <topic label="aie::aie::SparseVector" href="conceptaie_1_1aie_1_1SparseVector.html"/>
-        <topic label="aie::aie::SparseVectorOrOp" href="conceptaie_1_1aie_1_1SparseVectorOrOp.html"/>
-        <topic label="aie::aie::Accum" href="conceptaie_1_1aie_1_1Accum.html"/>
-        <topic label="aie::aie::AccumOrOp" href="conceptaie_1_1aie_1_1AccumOrOp.html"/>
-        <topic label="aie::aie::Mask" href="conceptaie_1_1aie_1_1Mask.html"/>
-        <topic label="aie::aie::DecoratedElemBaseType" href="conceptaie_1_1aie_1_1DecoratedElemBaseType.html"/>
-        <topic label="aie::aie::AccumElemBaseType" href="conceptaie_1_1aie_1_1AccumElemBaseType.html"/>
-        <topic label="aie::aie::PackableFrom" href="conceptaie_1_1aie_1_1PackableFrom.html"/>
-        <topic label="aie::aie::UnpackableFrom" href="conceptaie_1_1aie_1_1UnpackableFrom.html"/>
+        <topic label="aie::AsyncIOBuffer" href="conceptaie_1_1AsyncIOBuffer.html"/>
+        <topic label="aie::ComplexElem" href="conceptaie_1_1ComplexElem.html"/>
+        <topic label="aie::ComplexFloatVector" href="conceptaie_1_1ComplexFloatVector.html"/>
+        <topic label="aie::ComplexIntegralVector" href="conceptaie_1_1ComplexIntegralVector.html"/>
+        <topic label="aie::ComplexVector" href="conceptaie_1_1ComplexVector.html"/>
+        <topic label="aie::DecoratedElemBaseOrBlockType" href="conceptaie_1_1DecoratedElemBaseOrBlockType.html"/>
+        <topic label="aie::DecoratedElemBaseType" href="conceptaie_1_1DecoratedElemBaseType.html"/>
+        <topic label="aie::Elem" href="conceptaie_1_1Elem.html"/>
+        <topic label="aie::ElemBaseType" href="conceptaie_1_1ElemBaseType.html"/>
+        <topic label="aie::ElemOrOp" href="conceptaie_1_1ElemOrOp.html"/>
+        <topic label="aie::IOBuffer" href="conceptaie_1_1IOBuffer.html"/>
+        <topic label="aie::Mask" href="conceptaie_1_1Mask.html"/>
+        <topic label="aie::PackableFrom" href="conceptaie_1_1PackableFrom.html"/>
+        <topic label="aie::RealElem" href="conceptaie_1_1RealElem.html"/>
+        <topic label="aie::RealVector" href="conceptaie_1_1RealVector.html"/>
+        <topic label="aie::SparseVector" href="conceptaie_1_1SparseVector.html"/>
+        <topic label="aie::SparseVectorOrOp" href="conceptaie_1_1SparseVectorOrOp.html"/>
+        <topic label="aie::TensorBufferStream" href="conceptaie_1_1TensorBufferStream.html"/>
+        <topic label="aie::TensorBufferStreamOp" href="conceptaie_1_1TensorBufferStreamOp.html"/>
+        <topic label="aie::TensorBufferStreamOrOp" href="conceptaie_1_1TensorBufferStreamOrOp.html"/>
+        <topic label="aie::UnpackableFrom" href="conceptaie_1_1UnpackableFrom.html"/>
+        <topic label="aie::Vector" href="conceptaie_1_1Vector.html"/>
+        <topic label="aie::VectorOrOp" href="conceptaie_1_1VectorOrOp.html"/>
       </topic>
       <topic label="Accumulator Element Types" href="group__group__basic__types__accum.html">
         <topic label="acc32" href="group__group__basic__types__accum.html#structacc32"/>
@@ -52,7 +62,6 @@
         <topic label="acc64" href="group__group__basic__types__accum.html#structacc64"/>
         <topic label="acc72" href="group__group__basic__types__accum.html#structacc72"/>
         <topic label="acc80" href="group__group__basic__types__accum.html#structacc80"/>
-        <topic label="accauto" href="group__group__basic__types__accum.html#structaccauto"/>
         <topic label="accfloat" href="group__group__basic__types__accum.html#structaccfloat"/>
         <topic label="cacc32" href="group__group__basic__types__accum.html#structcacc32"/>
         <topic label="cacc40" href="group__group__basic__types__accum.html#structcacc40"/>
@@ -69,8 +78,12 @@
         <topic label="aie::op_conj" href="group__group__basic__types__ops.html#gac8b489668f504443a25c740a04fc5b3b"/>
         <topic label="aie::op_max" href="group__group__basic__types__ops.html#ga53e56da1801e06d8e82cce8904179ed2"/>
         <topic label="aie::op_min" href="group__group__basic__types__ops.html#gaeba133ae6d0868df243a503fbc59233b"/>
+        <topic label="aie::op_neg" href="group__group__basic__types__ops.html#ga77b7af857c78b96bda47426baef9e8b3"/>
         <topic label="aie::op_none" href="group__group__basic__types__ops.html#ga59f367b7a70e1af61940d81582909212"/>
+        <topic label="aie::op_none" href="group__group__basic__types__ops.html#ga598b5fd450b9270fa7554200fc05dc74"/>
+        <topic label="aie::op_or_none" href="group__group__basic__types__ops.html#gae418f3ab383306ca73badddc0253af2a"/>
         <topic label="aie::op_sign" href="group__group__basic__types__ops.html#ga20fd838cc2e959512cc9c3115afdab35"/>
+        <topic label="aie::op_sign" href="group__group__basic__types__ops.html#gab4f78f31aa297e80aa98ba11706cb564"/>
         <topic label="aie::op_sub" href="group__group__basic__types__ops.html#ga771c16dcfb8daf3dd59a3e1f5d603981"/>
         <topic label="aie::op_zero" href="group__group__basic__types__ops.html#gadfa48d459f3b3cc3ffcb04bc48ef9424"/>
       </topic>
@@ -113,23 +126,33 @@
       </topic>
       <topic label="aie::mask&lt; Elems &gt;" href="group__group__basic__types.html#classaie_1_1mask">
         <topic label="mask" href="group__group__basic__types.html#a671a2bd5edee08da6959e4d6311804d0"/>
-        <topic label="mask" href="group__group__basic__types.html#a79c2cfcd30635e6dfa56d9e11d75fa29"/>
+        <topic label="mask" href="group__group__basic__types.html#a6f39c806c35aa972fc3cc028b2c689f3"/>
+        <topic label="mask" href="group__group__basic__types.html#aadbb14b892abba6610bd4a7928b60535"/>
         <topic label="clear" href="group__group__basic__types.html#af15aa0fad6d0f1f8111a9d461f1e6f11"/>
         <topic label="clz" href="group__group__basic__types.html#a197f9336e073a37596b2698ba3da6311"/>
         <topic label="count" href="group__group__basic__types.html#afe470fe542bcb75ce1200444737b6a70"/>
-        <topic label="data" href="group__group__basic__types.html#a07eb0cf0671ae4136d7e6a76790d9f35"/>
+        <topic label="data" href="group__group__basic__types.html#a5b3b5cacf4ed76d8607293d9a160c113"/>
         <topic label="empty" href="group__group__basic__types.html#a559ba62343852e1b6acba17a43f143b1"/>
         <topic label="extract" href="group__group__basic__types.html#a2015e51f4bdf3d83e1e0bccf0138045b"/>
-        <topic label="from_masks" href="group__group__basic__types.html#a522b79d75f938dfcc7db09df535d9203"/>
-        <topic label="from_uint32" href="group__group__basic__types.html#ac7668c1751bd4b9238bd74db5415e705"/>
-        <topic label="from_uint64" href="group__group__basic__types.html#a651660bcabf73e73c1b1d856135816e1"/>
+        <topic label="from_masks" href="group__group__basic__types.html#a59157356cc642d1c7ea8a7c532d7ad80"/>
+        <topic label="from_masks" href="group__group__basic__types.html#aa97db27ac079132f056497eb4841e027"/>
+        <topic label="from_uint32" href="group__group__basic__types.html#a9fe92053e17e13ffe7f2a314597e6a4f"/>
+        <topic label="from_uint32" href="group__group__basic__types.html#ad444ae1765df0566648ec1594eac5fe7"/>
+        <topic label="from_uint32" href="group__group__basic__types.html#a972296b7bdc4a35b5dce2869daca04c5"/>
+        <topic label="from_uint64" href="group__group__basic__types.html#a78b4f66fd5f16414d733547206267f56"/>
+        <topic label="from_uint64" href="group__group__basic__types.html#a77397560d0e21e0fc90674c7efbd7973"/>
+        <topic label="from_uint64" href="group__group__basic__types.html#a42db02a659f6f6377c94f7bf061940d1"/>
+        <topic label="from_uint64" href="group__group__basic__types.html#a42db02a659f6f6377c94f7bf061940d1"/>
+        <topic label="from_vector" href="group__group__basic__types.html#a154b32ac73a4c4ad22461aed83ac3441"/>
         <topic label="full" href="group__group__basic__types.html#a3da162d4ef1d44941afe447f20c1be6a"/>
         <topic label="get_submask" href="group__group__basic__types.html#ace366e04ba236a086d1dda4853300740"/>
+        <topic label="grow" href="group__group__basic__types.html#a5fc15480526f2c31aac3e059d2a14108"/>
         <topic label="insert" href="group__group__basic__types.html#aecf1c11843786f5d1cd9077c0005ba03"/>
         <topic label="operator&amp;" href="group__group__basic__types.html#a24aaaad0d1c4f57dd944dc84674fb4cf"/>
         <topic label="operator&amp;=" href="group__group__basic__types.html#a02f97e9bef0e145f0e82e1add7bdfc72"/>
         <topic label="operator&lt;&lt;" href="group__group__basic__types.html#acd1d5ed5148d49ce483cd1cbaf118d43"/>
         <topic label="operator&lt;&lt;=" href="group__group__basic__types.html#a4b4298886b21b529625213e07a9a69c4"/>
+        <topic label="operator=" href="group__group__basic__types.html#a25cb72af255db18995bea51954f572d1"/>
         <topic label="operator==" href="group__group__basic__types.html#ab0466242bfe5d54fe7a6995f601598d1"/>
         <topic label="operator&gt;&gt;" href="group__group__basic__types.html#ac624559da5df0edf6cd1de10fecd8ca5"/>
         <topic label="operator&gt;&gt;=" href="group__group__basic__types.html#a3ebfbf4935749b45d161eaebf22c4b94"/>
@@ -141,9 +164,11 @@
         <topic label="test" href="group__group__basic__types.html#a548365e835c1fe2cc897e806947f50d4"/>
         <topic label="to_uint32" href="group__group__basic__types.html#a9ee44e2189498e70f29a9b5fa2998878"/>
         <topic label="to_uint32" href="group__group__basic__types.html#a1bd63c634dff37f37e7028d4e8914c22"/>
-        <topic label="to_uint64" href="group__group__basic__types.html#a3a915d124dae55cd4f79b034634d96bb"/>
+        <topic label="to_uint64" href="group__group__basic__types.html#ab29d413a1fe4f3dfa365c30a6142da0e"/>
         <topic label="to_uint64" href="group__group__basic__types.html#ae840980265beced649567c00f291d050"/>
+        <topic label="to_vector" href="group__group__basic__types.html#a7221b3c34eb95b1ad038ac52362177a0"/>
         <topic label="mask" href="group__group__basic__types.html#a2f91301328c7f83c710a3bc6a5931c87"/>
+        <topic label="detail::mask_base" href="group__group__basic__types.html#a09249cac7f3663c0e2665f44094cfe97"/>
       </topic>
       <topic label="aie::sparse_vector&lt; T, Elems &gt;" href="group__group__basic__types.html#classaie_1_1sparse__vector">
         <topic label="native_pointer_type" href="group__group__basic__types.html#ac319e9415dffb257a5ef8143359b1bd2"/>
@@ -250,6 +275,34 @@
         <topic label="offset" href="group__group__basic__types.html#a17da886a792f5b9e2724130f75bc2b98"/>
         <topic label="parent" href="group__group__basic__types.html#abc4332fc1c232474af0e0cbda01abe6c"/>
       </topic>
+    </topic>
+    <topic label="Configuration" href="group__group__config.html">
+      <topic label="aie::rounding_mode" href="group__group__config.html#ga2f5a93422bf82f6144037f0c37071119">
+        <topic label="aie::rounding_mode::floor" href="group__group__config.html#gga2f5a93422bf82f6144037f0c37071119a7515875808ef6219fa6fd725e2105588"/>
+        <topic label="aie::rounding_mode::ceil" href="group__group__config.html#gga2f5a93422bf82f6144037f0c37071119a6fee666d16bfa3ecbc516290cb59aa0a"/>
+        <topic label="aie::rounding_mode::positive_inf" href="group__group__config.html#gga2f5a93422bf82f6144037f0c37071119a6a84a954ec766fa02eb1ec2450d53732"/>
+        <topic label="aie::rounding_mode::negative_inf" href="group__group__config.html#gga2f5a93422bf82f6144037f0c37071119a41b600261b7e1af97b5ba2d40691cb4a"/>
+        <topic label="aie::rounding_mode::symmetric_inf" href="group__group__config.html#gga2f5a93422bf82f6144037f0c37071119a2c67133e11a3b5ddab3d418fab22df09"/>
+        <topic label="aie::rounding_mode::symmetric_zero" href="group__group__config.html#gga2f5a93422bf82f6144037f0c37071119aab8efa99e87098821cb3b41f3ee54cdc"/>
+        <topic label="aie::rounding_mode::conv_even" href="group__group__config.html#gga2f5a93422bf82f6144037f0c37071119ac854af0e50eca2b4357a557646e2530f"/>
+        <topic label="aie::rounding_mode::conv_odd" href="group__group__config.html#gga2f5a93422bf82f6144037f0c37071119a7039d38357f6d84f56b1bf904793b4d8"/>
+      </topic>
+      <topic label="aie::saturation_mode" href="group__group__config.html#gabc8cc57188006447fc810b66d05e1ad8">
+        <topic label="aie::saturation_mode::none" href="group__group__config.html#ggabc8cc57188006447fc810b66d05e1ad8a334c4a4c42fdb79d7ebc3e73b517e6f8"/>
+        <topic label="aie::saturation_mode::truncate" href="group__group__config.html#ggabc8cc57188006447fc810b66d05e1ad8a244f58cf07c35fd48d7524b289551e5c"/>
+        <topic label="aie::saturation_mode::saturate" href="group__group__config.html#ggabc8cc57188006447fc810b66d05e1ad8a4190a713d2c5d558385aad56c3ef0789"/>
+        <topic label="aie::saturation_mode::symmetric" href="group__group__config.html#ggabc8cc57188006447fc810b66d05e1ad8afeca3c730601be7fd57f1f0b668b4637"/>
+      </topic>
+      <topic label="aie::tile::current" href="group__group__config.html#gabe60893209039f72bbbd4b24b00bc8c1"/>
+      <topic label="aie::tile::cycles" href="group__group__config.html#gac35d4805375a1f5e2f9f20277a1eba61"/>
+      <topic label="aie::get_rounding" href="group__group__config.html#ga89e1709219d5640b67d4f94f8dcf7acd"/>
+      <topic label="aie::get_saturation" href="group__group__config.html#gad4a27d7f6500f970995a4d6000bed468"/>
+      <topic label="aie::tile::global_id" href="group__group__config.html#ga17d8a9cb7f8f02fce252b22ad5ab41f1"/>
+      <topic label="aie::tile::id" href="group__group__config.html#gabe73d07f0454838471332f85d32ebde0"/>
+      <topic label="aie::set_rounding" href="group__group__config.html#ga388de96a2fda2a9caf109691e45fd497"/>
+      <topic label="aie::set_saturation" href="group__group__config.html#gadf338d5d9f10e4d6598249a88972aba9"/>
+      <topic label="aie::swap_rounding" href="group__group__config.html#ga499e55754c2881c8dd9ee91afc61ab59"/>
+      <topic label="aie::swap_saturation" href="group__group__config.html#ga6c370b907e583082fdb645d00202a59e"/>
     </topic>
     <topic label="Memory" href="group__group__memory.html">
       <topic label="aie::circular_iterator&lt; T, Size, Resource &gt;" href="group__group__memory.html#classaie_1_1circular__iterator">
@@ -372,6 +425,20 @@
       <topic label="aie::const_vector_circular_iterator" href="group__group__memory.html#ga85071be2b83243cc38bfd58da6e01c59"/>
       <topic label="aie::const_vector_iterator" href="group__group__memory.html#ga7697b81c3eaededfe8ec5d1f83af1e77"/>
       <topic label="aie::const_vector_random_circular_iterator" href="group__group__memory.html#gac4ffcee22b253524b757cbf6a2ae39bf"/>
+      <topic label="aie_dm_resource" href="group__group__memory.html#ga27e1420060b652b4dd5828e4a728604d">
+        <topic label="aie_dm_resource::none" href="group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da334c4a4c42fdb79d7ebc3e73b517e6f8"/>
+        <topic label="aie_dm_resource::a" href="group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da0cc175b9c0f1b6a831c399e269772661"/>
+        <topic label="aie_dm_resource::b" href="group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da92eb5ffee6ae2fec3ad71c777531578f"/>
+        <topic label="aie_dm_resource::c" href="group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da4a8a08f09d37b73795649038408b5f33"/>
+        <topic label="aie_dm_resource::d" href="group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da8277e0910d750195b448797616e091ad"/>
+        <topic label="aie_dm_resource::stack" href="group__group__memory.html#gga27e1420060b652b4dd5828e4a728604dafac2a47adace059aff113283a03f6760"/>
+        <topic label="aie_dm_resource::ab" href="group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da187ef4436122d1cc2f40dc2b92f0eba0"/>
+        <topic label="aie_dm_resource::ac" href="group__group__memory.html#gga27e1420060b652b4dd5828e4a728604dae2075474294983e013ee4dd2201c7a73"/>
+        <topic label="aie_dm_resource::ad" href="group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da523af537946b79c4f8369ed39ba78605"/>
+        <topic label="aie_dm_resource::bc" href="group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da5360af35bde9ebd8f01f492dc059593c"/>
+        <topic label="aie_dm_resource::bd" href="group__group__memory.html#gga27e1420060b652b4dd5828e4a728604dac419b06b4c6579b50ff05adb3b8424f1"/>
+        <topic label="aie_dm_resource::cd" href="group__group__memory.html#gga27e1420060b652b4dd5828e4a728604da6865aeb3a9ed28f9a79ec454b259e5d0"/>
+      </topic>
       <topic label="aie::begin" href="group__group__memory.html#gadf11aba409e1539ad56053e66d50952e"/>
       <topic label="aie::begin" href="group__group__memory.html#ga99d3f209cc2ac4294d99bda66d0bee1e"/>
       <topic label="aie::begin_circular" href="group__group__memory.html#gaa0bdacb3ca0a807bbe898f76ab6af66f"/>
@@ -418,15 +485,34 @@
       <topic label="aie::load_unaligned_v" href="group__group__memory.html#gabf9241284a5d7f94e51ab8260ec2539a"/>
       <topic label="aie::load_v" href="group__group__memory.html#ga1d143988d732069ef3c66dc6d2ae3ea9"/>
       <topic label="aie::load_v" href="group__group__memory.html#ga6170e03f2657deaafca5f3fe7604b178"/>
+      <topic label="aie::make_restrict_tensor_buffer_stream" href="group__group__memory.html#ga07b8bc75574c405a8d414dac188efd2d"/>
+      <topic label="aie::make_tensor_buffer_stream" href="group__group__memory.html#ga2ae122d31c55434aee43656ac065fe2b"/>
+      <topic label="aie::make_tensor_buffer_stream" href="group__group__memory.html#ga65764350fdafee9d995dd0800c347a5b"/>
+      <topic label="aie::make_tensor_descriptor" href="group__group__memory.html#ga090a9f9f46df314bc9d5a10040ff2570"/>
+      <topic label="aie::make_tensor_descriptor" href="group__group__memory.html#ga4f043d20bef0c028960977ca2c7554c0"/>
+      <topic label="aie::make_tensor_descriptor" href="group__group__memory.html#ga8b9eebcb38bf2da4f90ff2e76611716f"/>
+      <topic label="aie::make_tensor_descriptor" href="group__group__memory.html#ga254af9902484321060cafa10082ce3db"/>
+      <topic label="aie::make_tensor_descriptor" href="group__group__memory.html#gad507d465a848090a1777cb109a146438"/>
+      <topic label="aie::make_tensor_descriptor_bytes" href="group__group__memory.html#gafbcfab6477fb20d1dd9f23451ff15c96"/>
+      <topic label="aie::make_tensor_descriptor_bytes" href="group__group__memory.html#ga337eacdd063a4d4d8414d535e2c6669e"/>
+      <topic label="aie::make_tensor_descriptor_bytes" href="group__group__memory.html#gae214bcbb17af78cb4d0297ef82e058d8"/>
+      <topic label="aie::make_tensor_descriptor_from_native" href="group__group__memory.html#ga09ad5c04d3a446309f8e4a32e68c6705"/>
+      <topic label="aie::make_tensor_descriptor_from_native" href="group__group__memory.html#ga7ac35877fa9caceea7386b95a7462081"/>
+      <topic label="aie::make_tensor_descriptor_from_native_bytes" href="group__group__memory.html#ga6f74ca1dead68063f2c4d0dd029946be"/>
+      <topic label="aie::make_tensor_descriptor_from_native_bytes" href="group__group__memory.html#gafbdd58cc1f547d7c0b5fcc183172a01b"/>
+      <topic label="aie::make_unaligned_tensor_buffer_stream" href="group__group__memory.html#ga1099cf2016f4a6bf365030c28869b025"/>
       <topic label="aie::store_floor_bytes_v" href="group__group__memory.html#gaa252aef409f9ad6e44de61cb91f2ff10"/>
       <topic label="aie::store_floor_v" href="group__group__memory.html#gab3802e73e7c1a10925fdfca13508bda3"/>
       <topic label="aie::store_unaligned_v" href="group__group__memory.html#ga8b750a16fa9d84ae0c20e190962d97e1"/>
       <topic label="aie::store_v" href="group__group__memory.html#gaa134a9db67641fc7ee69be78c7b00bf6"/>
       <topic label="aie::vector_decl_align" href="group__group__memory.html#gac0cd7fb3077c2394beef755dc918ba17"/>
+      <topic label="aie::vector_ldst_align_elems_v" href="group__group__memory.html#ga2b24fa5d21a39f6ae521e4692bca965f"/>
       <topic label="aie::vector_ldst_align_v" href="group__group__memory.html#gacabd4a61a97035597a9f430deb27df9a"/>
     </topic>
     <topic label="Initialization" href="group__group__init.html">
+      <topic label="aie::broadcast" href="group__group__init.html#ga58166b1074dfb7bc6e3d1610ac308ab9"/>
       <topic label="aie::broadcast" href="group__group__init.html#gad5018353bad946389f8fdd5f28609a66"/>
+      <topic label="aie::broadcast_vector" href="group__group__init.html#ga0d6edc221b81cd3ce61781604c92c119"/>
       <topic label="aie::concat" href="group__group__init.html#ga75f2a7582895781f923158f40dbaed3c"/>
       <topic label="aie::concat" href="group__group__init.html#gae32f448279ddef64366a5b53b2f6e1cf"/>
       <topic label="aie::zeros" href="group__group__init.html#gacb979d2a6a761089ac4a479b6cabbb5e"/>
@@ -434,8 +520,8 @@
     <topic label="Arithmetic" href="group__group__arithmetic.html">
       <topic label="aie::abs" href="group__group__arithmetic.html#ga66a7452722b5ba7fde5575cab45bd98d"/>
       <topic label="aie::abs" href="group__group__arithmetic.html#ga17773cd42e9ade49a2b43d7564d28db2"/>
+      <topic label="aie::abs_square" href="group__group__arithmetic.html#gabde1b2bece2d2baa8fade9c5a35145ff"/>
       <topic label="aie::abs_square" href="group__group__arithmetic.html#gada326bd4667e38eec6a935843154ad83"/>
-      <topic label="aie::abs_square" href="group__group__arithmetic.html#ga28e40bbb50dd889bb79971660c9b36da"/>
       <topic label="aie::add" href="group__group__arithmetic.html#gafd9f3351ca16d4398e29251c6b903663"/>
       <topic label="aie::add" href="group__group__arithmetic.html#ga64cd0aa88dbcddf9456f84d788984775"/>
       <topic label="aie::add" href="group__group__arithmetic.html#ga60396818cac5fb4aa6fa590c355889e7"/>
@@ -444,17 +530,17 @@
       <topic label="aie::add" href="group__group__arithmetic.html#ga960d8e5ec423e7dc654a8e084a2ce5dc"/>
       <topic label="aie::conj" href="group__group__arithmetic.html#gabecccc7fda6e19bf388d8b5308d1a7d5"/>
       <topic label="aie::conj" href="group__group__arithmetic.html#gab28beb9f93e1156cf163c1b9ba5575ab"/>
-      <topic label="aie::div" href="group__group__arithmetic.html#gabce953d9615890fc35092acbf53491a4"/>
-      <topic label="aie::div" href="group__group__arithmetic.html#ga5765047e8e406626d196c2bcf3140577"/>
+      <topic label="aie::div" href="group__group__arithmetic.html#gac7681eba582e3d6b7b400b0e15e73d80"/>
+      <topic label="aie::div" href="group__group__arithmetic.html#gab8eabd8277169fd065c8025eff838d9e"/>
       <topic label="aie::div" href="group__group__arithmetic.html#ga0f21fc73d2593927cf2f95ce56289907"/>
       <topic label="aie::div" href="group__group__arithmetic.html#ga55ed5682334e846a69966be95f79e29a"/>
       <topic label="aie::mac" href="group__group__arithmetic.html#ga5087b78ead5ea47bfd024b3e8d2bc94e"/>
       <topic label="aie::mac" href="group__group__arithmetic.html#gaf56db067d71355ecab1b3fd9e406cd55"/>
       <topic label="aie::mac" href="group__group__arithmetic.html#gadb01f076fc9e453407c0c310a3f5c5f3"/>
       <topic label="aie::mac_square" href="group__group__arithmetic.html#gaca1d879a7d4aec4c47cb1183f654a13a"/>
-      <topic label="aie::msc" href="group__group__arithmetic.html#ga779ed52c430334ad79f05e72c065ea51"/>
-      <topic label="aie::msc" href="group__group__arithmetic.html#gaf48b0ba593d06066a0383ff1724e599b"/>
-      <topic label="aie::msc" href="group__group__arithmetic.html#ga7c2b00e9df3fcbf879dcfd7f8191e6d0"/>
+      <topic label="aie::msc" href="group__group__arithmetic.html#ga5671276b47ffad19bc1a5866a17f9d78"/>
+      <topic label="aie::msc" href="group__group__arithmetic.html#ga6e67d5d5f626b1e80d2ad05f3ac8e42b"/>
+      <topic label="aie::msc" href="group__group__arithmetic.html#ga87725f8cc002d205dad7a36796cb4a75"/>
       <topic label="aie::msc_square" href="group__group__arithmetic.html#ga7f92c1d2705124f60eafd43ea0519a52"/>
       <topic label="aie::mul" href="group__group__arithmetic.html#gafdca71673bdae6c6642b88dab9aee1fe"/>
       <topic label="aie::mul" href="group__group__arithmetic.html#gac41b20273656eb670a3bf765c666b099"/>
@@ -495,9 +581,9 @@
       <topic label="aie::bit_or" href="group__group__bit.html#ga563065be89f272c19b811a39b4ef6785"/>
       <topic label="aie::bit_xor" href="group__group__bit.html#ga42f00207df4526e07903bfc452f5f533"/>
       <topic label="aie::bit_xor" href="group__group__bit.html#ga2c33cb3d65fa72701acca1d4a582dfc2"/>
-      <topic label="aie::downshift" href="group__group__bit.html#gae3dec518599b518dcdec044d4c645c6d"/>
-      <topic label="aie::logical_downshift" href="group__group__bit.html#ga6e9bcfcf0a7fdb414535c88a38a72993"/>
-      <topic label="aie::upshift" href="group__group__bit.html#gadc7a8af25608eaa2b2beafc8e09507cb"/>
+      <topic label="aie::downshift" href="group__group__bit.html#ga01b64cfee4f25d824fd8f6f92ba0c217"/>
+      <topic label="aie::logical_downshift" href="group__group__bit.html#gad6defd323dc1fe15e798b1b6ec5baff0"/>
+      <topic label="aie::upshift" href="group__group__bit.html#ga166103aee8a8bd644f76bfd641a14a4f"/>
     </topic>
     <topic label="Comparison" href="group__group__compare.html">
       <topic label="aie::clamp" href="group__group__compare.html#ga37abb63745b0433974df235ca8d14fbd"/>
@@ -546,6 +632,7 @@
       <topic label="aie::not_equal" href="group__group__compare.html#ga527d2afb22b209d35b207d02dd9e37b1"/>
     </topic>
     <topic label="Reduction" href="group__group__reduce.html">
+      <topic label="aie::reduce_add" href="group__group__reduce.html#ga93b8a32df2a33d549b0aaab3d16dfc9c"/>
       <topic label="aie::reduce_add" href="group__group__reduce.html#gab4b74d8fbc820e6899075fdd5b627ab2"/>
       <topic label="aie::reduce_max" href="group__group__reduce.html#gaa76b524ab8ffa3070184336d8a8806d7"/>
       <topic label="aie::reduce_min" href="group__group__reduce.html#gae9d24cb34f40f3660078411e952c8ce9"/>
@@ -568,14 +655,14 @@
       <topic label="aie::filter" href="group__group__reshape.html#ga7dfeba667f965b1270cd23c3ecab919f"/>
       <topic label="aie::filter_even" href="group__group__reshape.html#gacaff9b63a0499a2549d93873f4d2516b"/>
       <topic label="aie::filter_odd" href="group__group__reshape.html#gae30977ff03f577797bd8afe4ec12ca0b"/>
-      <topic label="aie::imag" href="group__group__reshape.html#ga6ef610fa6d4fe1fd67f93d1a7a024266"/>
-      <topic label="aie::imag" href="group__group__reshape.html#ga61bca811fa4b427c9a8e490763e9d334"/>
+      <topic label="aie::imag" href="group__group__reshape.html#ga9d4b3c113d347a78fa494757dde7ef5b"/>
+      <topic label="aie::imag" href="group__group__reshape.html#ga31d6253cb73a9f390cd423c3f74a7d4b"/>
       <topic label="aie::interleave_unzip" href="group__group__reshape.html#ga87ca1c50ee0039879af94f0d267f1c6b"/>
       <topic label="aie::interleave_unzip" href="group__group__reshape.html#ga49b02d5125d3adaa055c644297343b8a"/>
       <topic label="aie::interleave_zip" href="group__group__reshape.html#ga39a16c9f4ab6c16d89fd3c16750cedfd"/>
       <topic label="aie::interleave_zip" href="group__group__reshape.html#ga88a182aac4704b1ad640383356008524"/>
-      <topic label="aie::real" href="group__group__reshape.html#gab72e76c6970231b60f9946c52f762256"/>
-      <topic label="aie::real" href="group__group__reshape.html#ga5d8153ea6de2d58816ddd0275497f9b6"/>
+      <topic label="aie::real" href="group__group__reshape.html#ga814f6194c8d6f60a4b97f5ad24def86d"/>
+      <topic label="aie::real" href="group__group__reshape.html#gaaee7cf7acf23b952c861259ffd1efc9b"/>
       <topic label="aie::reverse" href="group__group__reshape.html#gae3f156cb322929539a61714b3c76d894"/>
       <topic label="aie::select" href="group__group__reshape.html#gabc3a9d872606af6257e1fe84772f5332"/>
       <topic label="aie::select" href="group__group__reshape.html#ga5fa4a3e5fbcfff4b9658e7409dde5829"/>
@@ -593,10 +680,14 @@
     </topic>
     <topic label="Floating-point Conversion" href="group__group__fp__conversion.html">
       <topic label="aie::to_fixed" href="group__group__fp__conversion.html#gac9ba34fd7f144fab635a24eb3b3bc173"/>
-      <topic label="aie::to_fixed" href="group__group__fp__conversion.html#ga47f380b039127631b2a753e53bd69823"/>
+      <topic label="aie::to_fixed" href="group__group__fp__conversion.html#gaeb828ace5865cd118ef68b76079b9496"/>
       <topic label="aie::to_fixed" href="group__group__fp__conversion.html#ga4efd22614c80121221a674ea86e79d4e"/>
       <topic label="aie::to_fixed" href="group__group__fp__conversion.html#ga212c390380acd5681846167aae664457"/>
+      <topic label="aie::to_fixed" href="group__group__fp__conversion.html#gae264a25e0221e70b2c052b323091372d"/>
       <topic label="aie::to_fixed" href="group__group__fp__conversion.html#ga0e5c3df9e2fe544bcc0967cb9bbd9a70"/>
+      <topic label="aie::to_fixed_floor" href="group__group__fp__conversion.html#gae91aabffb08e999c04fb1f2dd52bcd15"/>
+      <topic label="aie::to_fixed_sign" href="group__group__fp__conversion.html#ga962e90395e84996a286b9ca60cd95d95"/>
+      <topic label="aie::to_fixed_sign" href="group__group__fp__conversion.html#ga42f14a0fc41e8d4c1f53c1a83393e534"/>
       <topic label="aie::to_float" href="group__group__fp__conversion.html#ga45b0f60dca28fc8f3f3eaf68fafd6d33"/>
       <topic label="aie::to_float" href="group__group__fp__conversion.html#ga11da22dc782a7cf85ad3e852efcba435"/>
       <topic label="aie::to_float" href="group__group__fp__conversion.html#gaa4974ab6aee54bd4821aab85ebb39757"/>
@@ -614,10 +705,11 @@
         <topic label="aie::min" href="group__group__fp__scalar.html#ga42a26db4bcd881295a12d82f621eb561"/>
         <topic label="aie::neq" href="group__group__fp__scalar.html#ga03e038969b49acab3d89f29f8dfdedc6"/>
       </topic>
-      <topic label="aie::abs_square" href="group__group__elementary.html#gafe7952152b0813165ee2cb5fb45bfb1f"/>
+      <topic label="aie::abs_square" href="group__group__elementary.html#ga62a630800ae0fcdbc125f8f12dc17023"/>
       <topic label="aie::cos" href="group__group__elementary.html#ga40ff325aff372d961b13e459f9c3089e"/>
       <topic label="aie::cos" href="group__group__elementary.html#ga377ab679db35dbfc7742e1008fa7698e"/>
-      <topic label="aie::exp2" href="group__group__elementary.html#ga2e1d90d7f26ce9cc6dd525d0c828babb"/>
+      <topic label="aie::exp2" href="group__group__elementary.html#ga947e277ec4f3da6ff7c67bf20a9a406d"/>
+      <topic label="aie::inv" href="group__group__elementary.html#gacc3216f94a4641c8a75ce27d5fa3f89d"/>
       <topic label="aie::inv" href="group__group__elementary.html#ga7c339c30df70ee7ca1e66a1f0db99a8b"/>
       <topic label="aie::inv" href="group__group__elementary.html#gaf661511064b5fc3d0add1341357c8667"/>
       <topic label="aie::inv" href="group__group__elementary.html#gae20931f4b7a97fec467944a5897376b0"/>
@@ -633,60 +725,78 @@
       <topic label="aie::sqrt" href="group__group__elementary.html#ga57798736af9c333219a8282bac4d5021"/>
       <topic label="aie::sqrt" href="group__group__elementary.html#gaf9e1845c989a47729a6514141afc408f"/>
       <topic label="aie::sqrt" href="group__group__elementary.html#gacb853f072edc409685f7a93b68101ca9"/>
-      <topic label="aie::tanh" href="group__group__elementary.html#ga4f9415776f570f40f8b5d4fd6747de9e"/>
+      <topic label="aie::tanh" href="group__group__elementary.html#ga23f9577ea921254f77a4389c772d2149"/>
     </topic>
     <topic label="Matrix Multiplication" href="group__group__mmul.html">
-      <topic label="aie::mmul&lt; M_Elems, K_Elems, N_Elems, TypeA, TypeB, AccumTag &gt;" href="group__group__mmul.html#structaie_1_1mmul">
-        <topic label="accum_type" href="group__group__mmul.html#aecf724607a1115c9b480a10d6a9db165"/>
-        <topic label="mmul_impl" href="group__group__mmul.html#a1c174620c2bbc7856e450ad9060ca7c3"/>
-        <topic label="mmul" href="group__group__mmul.html#a784b84fb059e4393d67f414592d4c8a7"/>
-        <topic label="mmul" href="group__group__mmul.html#a5d40819f4e59edcb15acf1e691da35dc"/>
-        <topic label="mmul" href="group__group__mmul.html#a6d3783340807952e39c879bea6971254"/>
-        <topic label="mmul" href="group__group__mmul.html#a83f084eedb0072728d786ba5641bafea"/>
-        <topic label="mmul" href="group__group__mmul.html#a2ad397435c9d4bf9e73a46fe8db4ea98"/>
-        <topic label="mac" href="group__group__mmul.html#a2b0937b228d05e5f0fb4790349340293"/>
-        <topic label="mac" href="group__group__mmul.html#ab0e28ef63d8045677d6600fb25f93c0d"/>
-        <topic label="mul" href="group__group__mmul.html#a5db1696d476ceb736f27113d5e323b41"/>
-        <topic label="mul" href="group__group__mmul.html#af7427516f13e17b09d4b476f5582e936"/>
-        <topic label="operator accum_type" href="group__group__mmul.html#ae0512e04bd51e3726f2fd5eb9e0845aa"/>
-        <topic label="operator=" href="group__group__mmul.html#a0f3fafbc95fec0e2709c652fa1b62f3d"/>
-        <topic label="size" href="group__group__mmul.html#a012e5142c8da7eaf73eec78601460583"/>
-        <topic label="to_accum" href="group__group__mmul.html#a9873dbf10089ac12451a7bbcb09d9918"/>
-        <topic label="to_vector" href="group__group__mmul.html#a20aaa6aac29e5a017f03116328d5103b"/>
-        <topic label="K" href="group__group__mmul.html#aa4ceb6cc4bce8a28b3b562b6ab9a5157"/>
-        <topic label="M" href="group__group__mmul.html#af44cdb433778e031ade9377c66a0dd60"/>
-        <topic label="N" href="group__group__mmul.html#ac06bfb15c8e54ca85dfefb0597e976ed"/>
-        <topic label="size_A" href="group__group__mmul.html#a62853fcc93664203ee36eeeb0879ad70"/>
-        <topic label="size_B" href="group__group__mmul.html#acdf9dc9e6f580ad2296738a0f48a271b"/>
-        <topic label="size_C" href="group__group__mmul.html#ae480f2ba205f6be30e3174b11aba8ddf"/>
+      <topic label="aie::mmul&lt; M_Elems, K_Elems, N_Elems, TypeA, TypeB, AccumTag, Ownership &gt;" href="group__group__mmul.html#structaie_1_1mmul">
+        <topic label="accum_type" href="group__group__mmul.html#a60bd565ece0d50cfc09bc7c92a1b533b"/>
+        <topic label="mmul_impl" href="group__group__mmul.html#ac235fd1d9f021218e10630971e457ae4"/>
+        <topic label="mmul" href="group__group__mmul.html#a83615d7006a414c141eff831790e77d2"/>
+        <topic label="mmul" href="group__group__mmul.html#ac1725c24f1d6eb4365f1090d399fda38"/>
+        <topic label="mmul" href="group__group__mmul.html#a4e4856b35aed372afd4edd00b36cab01"/>
+        <topic label="mmul" href="group__group__mmul.html#ad1729130e161a913e2796b3f5e22b8ba"/>
+        <topic label="mmul" href="group__group__mmul.html#a1b43d9d0a0c0a01325c21c3aba0271f8"/>
+        <topic label="mmul" href="group__group__mmul.html#a3ca3a8368f750f3b196847f59fbdc96b"/>
+        <topic label="mac" href="group__group__mmul.html#a9f87b8f4e1e7d4f09b10f09a059070fe"/>
+        <topic label="mac" href="group__group__mmul.html#aa2c451b9b35cf518e124a3f4caa3195b"/>
+        <topic label="mul" href="group__group__mmul.html#a43e34a5e85146d0019a415a2436cafda"/>
+        <topic label="mul" href="group__group__mmul.html#a807e5bdfd929d917d13cbebf95d107e8"/>
+        <topic label="operator accum_type" href="group__group__mmul.html#a64698ae856a1220a218c4e4dc16c176e"/>
+        <topic label="operator=" href="group__group__mmul.html#accfe11950cd4dc4f5f4aa05c828f4afd"/>
+        <topic label="size" href="group__group__mmul.html#a6f6b0b43feeb025aaf5fc74892465b11"/>
+        <topic label="to_accum" href="group__group__mmul.html#a2eb3a6e34cd87cc833626f4645cb7de8"/>
+        <topic label="to_vector" href="group__group__mmul.html#ae5eea293310a793651aa24532f053cd5"/>
+        <topic label="K" href="group__group__mmul.html#a760c16ba304746a912592fcc5a724355"/>
+        <topic label="M" href="group__group__mmul.html#a25aa8e119e5a7e502f70d5a947dbc3e2"/>
+        <topic label="N" href="group__group__mmul.html#afc64ba83caa3e01f99277cba289f8d6c"/>
+        <topic label="size_A" href="group__group__mmul.html#a07140c71ac30a0f8256729cd15c2c0ad"/>
+        <topic label="size_B" href="group__group__mmul.html#a5553c21db0c211b83638c018975c0250"/>
+        <topic label="size_C" href="group__group__mmul.html#ab6a580c2a2413af7cfaf7d7768aedbaa"/>
       </topic>
       <topic label="Matrix Multiplication Modes" href="group__group__mmul.html#group_mmul_page_supported_modes">
-              <topic label="Supported Matrix Multiplication Modes" href="group__group__mmul.html#group_mmul_page_supported_regular_modes"/>
-              <topic label="GEMM leveraging multidimensional addressing" href="group__group__mmul.html#group_mmul_page_multidim_gemm"/>
-              <topic label="Supported Sparse Matrix Multiplication Modes" href="group__group__mmul.html#group_mmul_page_supported_sparse_modes"/>
-                <topic label="Supported Matrix Multiplication Modes" href="group__group__mmul.html#group_mmul_page_supported_regular_modes"/>
-                <topic label="GEMM leveraging multidimensional addressing" href="group__group__mmul.html#group_mmul_page_multidim_gemm"/>
-                <topic label="Supported Sparse Matrix Multiplication Modes" href="group__group__mmul.html#group_mmul_page_supported_sparse_modes"/>
+        <topic label="Supported Matrix Multiplication Modes" href="group__group__mmul.html#group_mmul_page_supported_regular_modes"/>
+        <topic label="GEMM leveraging multidimensional addressing" href="group__group__mmul.html#group_mmul_page_multidim_gemm"/>
+        <topic label="Supported Sparse Matrix Multiplication Modes" href="group__group__mmul.html#group_mmul_page_supported_sparse_modes">
+          <topic label="Supported Matrix Multiplication Modes" href="group__group__mmul.html#group_mmul_page_supported_regular_modes"/>
+          <topic label="GEMM leveraging multidimensional addressing" href="group__group__mmul.html#group_mmul_page_multidim_gemm"/>
+          <topic label="Supported Sparse Matrix Multiplication Modes" href="group__group__mmul.html#group_mmul_page_supported_sparse_modes"/>
+        </topic>
       </topic>
     </topic>
     <topic label="Fast Fourier Transform (FFT)" href="group__group__fft.html">
       <topic label="Supported Fast Fourier Transform Modes" href="group__group__fft.html#group_fft_page_supported_modes"/>
-      <topic label="aie::fft_dit_r2_stage" href="group__group__fft.html#gaaf3683a7d616cef31ee64d9b98e4954f"/>
+      <topic label="aie::fft_dit_r2_stage" href="group__group__fft.html#gabf18d1d8f0f672df9af4f16ce7801afe"/>
       <topic label="aie::fft_dit_r2_stage" href="group__group__fft.html#gad5cc1000e2c66d91fcc132a5092e7bf6"/>
       <topic label="aie::fft_dit_r2_stage" href="group__group__fft.html#gad3f1575d957a9a1fd1c8675bf9750074"/>
       <topic label="aie::fft_dit_r2_stage" href="group__group__fft.html#ga1af31b841803424c06931f4f61c7612a"/>
-      <topic label="aie::fft_dit_r3_stage" href="group__group__fft.html#ga4d143ecd173da7ec433828a0a32df4ef"/>
-      <topic label="aie::fft_dit_r3_stage" href="group__group__fft.html#ga99e17e50a5877f26f75dd283ee48191a"/>
+      <topic label="aie::fft_dit_r3_stage" href="group__group__fft.html#ga77826235c48a780be2dc6271064bbc28"/>
+      <topic label="aie::fft_dit_r3_stage" href="group__group__fft.html#ga009c088fea4608539064a3a9a3211568"/>
       <topic label="aie::fft_dit_r3_stage" href="group__group__fft.html#gad91f4b5bc36219caf495ff08755dc0d3"/>
       <topic label="aie::fft_dit_r3_stage" href="group__group__fft.html#gad17d3eb428ad9c1daa801f162a9e7642"/>
       <topic label="aie::fft_dit_r4_stage" href="group__group__fft.html#ga74476a7c3a7b640497ab7d4038a0ca6f"/>
       <topic label="aie::fft_dit_r4_stage" href="group__group__fft.html#ga39c5ca6741757971979cabf040bea900"/>
-      <topic label="aie::fft_dit_r5_stage" href="group__group__fft.html#gae1c59c31b0b1d132b266e5d31709e84a"/>
-      <topic label="aie::fft_dit_r5_stage" href="group__group__fft.html#gaf803760729ed2e0cecc3e747f5e939ae"/>
+      <topic label="aie::fft_dit_r5_stage" href="group__group__fft.html#gad55afa0001acbe4cfefde04bcc8e23c6"/>
+      <topic label="aie::fft_dit_r5_stage" href="group__group__fft.html#gae6f23bd64606dba5b2a55d2797e292fe"/>
       <topic label="aie::fft_dit_r5_stage" href="group__group__fft.html#gae3c9e9ff98a2382b0d3a25517af76198"/>
       <topic label="aie::fft_dit_r5_stage" href="group__group__fft.html#gacf80d386c15382016512d319d13e3f9a"/>
     </topic>
     <topic label="Special Multiplications" href="group__group__mul__special.html">
+      <topic label="aie::partial_sliding_mul&lt; Lanes, Points, CoeffStep, DataStepX, DataStepY, CoeffType, DataType, AccumTag &gt;" href="group__group__mul__special.html#classaie_1_1partial__sliding__mul">
+        <topic label="accum_type" href="group__group__mul__special.html#acf74c0c95fcc43577920500b4e69fa1a"/>
+        <topic label="real_accum_type" href="group__group__mul__special.html#aa43c904c2e3501f16d48ce7c664aadba"/>
+        <topic label="partial_sliding_mul" href="group__group__mul__special.html#a9ece79becd98772c255091cdcccad04d"/>
+        <topic label="partial_sliding_mul" href="group__group__mul__special.html#aaae5e55f981cf5177b93e12f4d39ae92"/>
+        <topic label="partial_sliding_mul" href="group__group__mul__special.html#a5a3321c3365a25a1b050d7f0b27c077b"/>
+        <topic label="partial_sliding_mul" href="group__group__mul__special.html#a62c777b1f203f8fc3d3d384ffcbcce32"/>
+        <topic label="mac" href="group__group__mul__special.html#a73a046125f2a3230373f5212005b42a5"/>
+        <topic label="mul" href="group__group__mul__special.html#a03aa737c39c86e084b5a06cd9db27e7b"/>
+        <topic label="to_accum" href="group__group__mul__special.html#a692dbeec50cd3bcc9a6a9c56a98d6995"/>
+        <topic label="to_accum_components" href="group__group__mul__special.html#ac35e2a849e015af03fce79ea9c6da400"/>
+        <topic label="to_vector" href="group__group__mul__special.html#a2e565af40c4fa0a15336752f04dc87a3"/>
+        <topic label="to_vector_components" href="group__group__mul__special.html#abcfafd137ed0f7f7175727927634f565"/>
+        <topic label="operator&lt;&lt;" href="group__group__mul__special.html#a8494baad4bef7e10e020e00f36f08538"/>
+        <topic label="operator&gt;&gt;" href="group__group__mul__special.html#ad6f44679d408bac8502a7b302577792d"/>
+      </topic>
       <topic label="aie::sliding_mul_ch_ops&lt; Outputs, Channels, Points, CoeffStep, DataStepX, DataStepY, CoeffType, DataType, AccumTag &gt;" href="group__group__mul__special.html#structaie_1_1sliding__mul__ch__ops">
         <topic label="accum_type" href="group__group__mul__special.html#aeb3118d8e147f3afb018986d0a299c7f"/>
         <topic label="coeff_type" href="group__group__mul__special.html#aab7585e3d446dfc830773f853805f461"/>
@@ -863,6 +973,8 @@
       <topic label="aie::begin_vector" href="group__group__adf.html#ga308782ca9f6f597d3f21623352c83197"/>
       <topic label="aie::begin_vector_circular" href="group__group__adf.html#ga080f85e0b2a1b6df009fa0f935a7062a"/>
       <topic label="aie::begin_vector_circular" href="group__group__adf.html#gaf83f11e1905870604dc47803c4e26ba7"/>
+      <topic label="aie::begin_vector_input_buffer_stream" href="group__group__adf.html#ga577397b77091660162fe31717b598c83"/>
+      <topic label="aie::begin_vector_output_buffer_stream" href="group__group__adf.html#gadeb06b4fe88424750ace820ca360d4d1"/>
       <topic label="aie::begin_vector_random_circular" href="group__group__adf.html#ga9ae0bcc5fb151886de0abd64e7595a14"/>
       <topic label="aie::begin_vector_random_circular" href="group__group__adf.html#ga12fb02755a066b80daf97de85a5e9f83"/>
       <topic label="aie::cbegin" href="group__group__adf.html#ga627b5bc50190455e6d88fbe6a8570224"/>
@@ -871,7 +983,13 @@
       <topic label="aie::cbegin_restrict_vector" href="group__group__adf.html#ga660478b6a8c5acae34789d46d3ebe45f"/>
       <topic label="aie::cbegin_vector" href="group__group__adf.html#gab74ea229f36c51a4082f630725eb8522"/>
       <topic label="aie::cbegin_vector_circular" href="group__group__adf.html#ga6f68bea6bdbc5f8d646eb569ad909fe0"/>
+      <topic label="aie::cbegin_vector_input_buffer_stream" href="group__group__adf.html#ga22388bab1f5e9ecdb6dca2ff494cd0e8"/>
       <topic label="aie::cbegin_vector_random_circular" href="group__group__adf.html#gaae9dd95f68196812c8ef2ccc2da41c38"/>
+      <topic label="aie::make_restrict_tensor_buffer_stream" href="group__group__adf.html#ga228bb4a50e294dba3f196afa9e954b62"/>
+      <topic label="aie::make_tensor_buffer_stream" href="group__group__adf.html#gad5dda5f14a76b912b726f0ec49380e12"/>
+      <topic label="aie::make_tensor_buffer_stream" href="group__group__adf.html#gadbf5d82bd3d13cb13d2eb2fbea38da96"/>
+      <topic label="aie::make_unaligned_tensor_buffer_stream" href="group__group__adf.html#ga99b6c98c3104d3b018271373cb25c0b6"/>
+      <topic label="aie::make_unaligned_tensor_buffer_stream" href="group__group__adf.html#ga3ad59c20fc6b5a6e79ca3f541e49cb92"/>
       <topic label="operator&lt;&lt;" href="group__group__adf.html#gad0af974ae133554077eb8db12710aead"/>
       <topic label="operator&lt;&lt;" href="group__group__adf.html#gaa99745e67d6184aa1e21a00ce75d6a17"/>
       <topic label="operator&lt;&lt;" href="group__group__adf.html#ga8c4b774c4ef1ea1f05737005c9027dfd"/>
@@ -897,8 +1015,8 @@
       <topic label="operator&gt;&gt;" href="group__group__adf.html#gadfcff02434c6547b41e6fbe1c9528837"/>
       <topic label="operator&gt;&gt;" href="group__group__adf.html#ga1918fc89896c5f05e0cbfef7a8428833"/>
       <topic label="readincr_v" href="group__group__adf.html#ga7a1a8e77fce2fbfb60af39a9707530de"/>
-      <topic label="readincr_v" href="group__group__adf.html#gacf6b2ad8a277a81a849e88db2e212fde"/>
       <topic label="readincr_v" href="group__group__adf.html#ga26580cf8c7089bb08b4bab254b17175b"/>
+      <topic label="readincr_v" href="group__group__adf.html#gacf6b2ad8a277a81a849e88db2e212fde"/>
       <topic label="readincr_v" href="group__group__adf.html#ga28796c29b9b11c3083336dd8efea921e"/>
       <topic label="window_read_v" href="group__group__adf.html#ga604e4107eb42f83c18069f7473db441b"/>
       <topic label="window_read_v" href="group__group__adf.html#ga7d194fa9dbf5ad2c2af4967e635bd4c7"/>
@@ -915,37 +1033,55 @@
       <topic label="writeincr" href="group__group__adf.html#ga7bb68a79edcb5ef816c2212d11300db7"/>
     </topic>
     <topic label="Uility functions and classes" href="group__group__utility__functions.html">
+      <topic label="Architecture helpers" href="group__group__utility__arch.html">
+        <topic label="aie::arch" href="group__group__utility__arch.html#structaie_1_1arch">
+          <topic label="ArchGeneration" href="group__group__utility__arch.html#ac2cdece807dd8a3785a30a968bf89892">
+            <topic label="Gen1" href="group__group__utility__arch.html#ac2cdece807dd8a3785a30a968bf89892a5df134d1df2adbf29f9ffea94d9e8f3f"/>
+            <topic label="Gen2" href="group__group__utility__arch.html#ac2cdece807dd8a3785a30a968bf89892aa82d89a380c790b126450e584e106179"/>
+          </topic>
+          <topic label="ArchVersion" href="group__group__utility__arch.html#a671c2b8e3def407f9379ded985d3e5f5">
+            <topic label="AIE" href="group__group__utility__arch.html#a671c2b8e3def407f9379ded985d3e5f5ab8b3a8da1cd5229bb8d392de190b3cb3"/>
+            <topic label="AIE_ML" href="group__group__utility__arch.html#a671c2b8e3def407f9379ded985d3e5f5ad1eb15b0e4782d2a7bf8b1f7a69cc774"/>
+            <topic label="XDNA2" href="group__group__utility__arch.html#a671c2b8e3def407f9379ded985d3e5f5a4c0dfab5627183e3fb196c5b1cac484a"/>
+            <topic label="AIE_MLv2" href="group__group__utility__arch.html#a671c2b8e3def407f9379ded985d3e5f5aba7ee404eeaee8e1820403b6e1fe8c4e"/>
+          </topic>
+          <topic label="is" href="group__group__utility__arch.html#a11e83c008f44078b83bc5b7799887b79"/>
+          <topic label="is" href="group__group__utility__arch.html#a625fe645add467b5e19e60195bcc971a"/>
+          <topic label="generation" href="group__group__utility__arch.html#ac8ad0cd0a5229f10d762da49a360dcff"/>
+          <topic label="version" href="group__group__utility__arch.html#a7ebb331c6608b7762d3541240b7b55af"/>
+        </topic>
+      </topic>
       <topic label="Print functions" href="group__group__utility__print.html">
         <topic label="aie::print" href="group__group__utility__print.html#gad47c2c065fd0c9a9b979504329f959f3"/>
         <topic label="aie::print" href="group__group__utility__print.html#gaf75cc6ecdbb74f812961892500653224"/>
         <topic label="aie::print_fixed" href="group__group__utility__print.html#ga9bed6d6e36055819179a4b56e939dd89"/>
         <topic label="aie::print_matrix" href="group__group__utility__print.html#gafedac7c3495b22c6a007b9d6b518946f"/>
       </topic>
-      <topic label="Loop unrolling functions" href="group__group__utility__unroll.html">
-        <topic label="aie::unroll_for" href="group__group__utility__unroll.html#ga987da8e734dc99022c8373ab7e156362"/>
-        <topic label="aie::unroll_for_2d" href="group__group__utility__unroll.html#gab2848a4a289deb1441efe6ed92bec406"/>
-        <topic label="aie::unroll_times" href="group__group__utility__unroll.html#ga28fc812e9dc9f8d9984bf3b996e72d16"/>
-        <topic label="aie::unroll_times_2d" href="group__group__utility__unroll.html#ga62da752044e33402dcaab718bcfdabab"/>
-      </topic>
-      <topic label="aie::arch" href="group__group__utility__functions.html#structaie_1_1arch">
-        <topic label="ArchGeneration" href="group__group__utility__functions.html#ac2cdece807dd8a3785a30a968bf89892">
-          <topic label="Gen1" href="group__group__utility__functions.html#ac2cdece807dd8a3785a30a968bf89892a5df134d1df2adbf29f9ffea94d9e8f3f"/>
-          <topic label="Gen2" href="group__group__utility__functions.html#ac2cdece807dd8a3785a30a968bf89892aa82d89a380c790b126450e584e106179"/>
+      <topic label="Loop functions" href="group__group__utility__loops.html">
+        <topic label="Loop unrolling" href="group__group__utility__unroll.html">
+          <topic label="aie::unroll_for" href="group__group__utility__unroll.html#ga59e59d1c5e1d22e984745e16fdfc723f"/>
+          <topic label="aie::unroll_for_2d" href="group__group__utility__unroll.html#ga86032163b1c7db9c6633a725accad38f"/>
+          <topic label="aie::unroll_times" href="group__group__utility__unroll.html#gae831906ce06d80104d393902be62e71c"/>
+          <topic label="aie::unroll_times_2d" href="group__group__utility__unroll.html#gab9fdf20f606668dac3cf67a56960f0e1"/>
         </topic>
-        <topic label="ArchVersion" href="group__group__utility__functions.html#a671c2b8e3def407f9379ded985d3e5f5">
-          <topic label="AIE" href="group__group__utility__functions.html#a671c2b8e3def407f9379ded985d3e5f5ab8b3a8da1cd5229bb8d392de190b3cb3"/>
-          <topic label="AIE_ML" href="group__group__utility__functions.html#a671c2b8e3def407f9379ded985d3e5f5ad1eb15b0e4782d2a7bf8b1f7a69cc774"/>
-          <topic label="XDNA_2" href="group__group__utility__functions.html#a671c2b8e3def407f9379ded985d3e5f5a36503d3b5c086b1ba30335a3ba31b141"/>
+        <topic label="Loop pipelining" href="group__group__utility__pipelining.html">
+          <topic label="aie::loop_options" href="group__group__utility__pipelining.html#structaie_1_1loop__options">
+            <topic label="peel_back" href="group__group__utility__pipelining.html#abb56f1d150b463586eea5ab06b75ca79"/>
+            <topic label="peel_front" href="group__group__utility__pipelining.html#a358c10b943b72984fb2a749dfc27af91"/>
+            <topic label="preamble_offset" href="group__group__utility__pipelining.html#abb5f534b3428322d5eb3850bdb44faa2"/>
+          </topic>
+          <topic label="aie::peeled_loop" href="group__group__utility__pipelining.html#ga95aa639a2545012216470ba1916fd497"/>
+          <topic label="aie::pipelined_loop" href="group__group__utility__pipelining.html#ga9f34927e63067fe91619fc39d112a1e1"/>
+          <topic label="aie::pipelined_loops" href="group__group__utility__pipelining.html#ga9e2872d48b31073fd47c2141b23eba76"/>
+          <topic label="aie::pipelined_loops" href="group__group__utility__pipelining.html#gaff54b7977227802eae21d085a9f41a06"/>
         </topic>
-        <topic label="is" href="group__group__utility__functions.html#a11e83c008f44078b83bc5b7799887b79"/>
-        <topic label="is" href="group__group__utility__functions.html#a625fe645add467b5e19e60195bcc971a"/>
-        <topic label="generation" href="group__group__utility__functions.html#ac8ad0cd0a5229f10d762da49a360dcff"/>
-        <topic label="version" href="group__group__utility__functions.html#a7ebb331c6608b7762d3541240b7b55af"/>
       </topic>
-      <topic label="aie::utils::locate_in_register" href="group__group__utility__functions.html#ga0862c0a13b7df5639bfc36c3ebdfc49c"/>
-      <topic label="aie::utils::locate_in_register" href="group__group__utility__functions.html#ga12c1e8cbe1178d08e19ad560413a73ac"/>
-      <topic label="aie::pipelined_loop" href="group__group__utility__functions.html#ga9f34927e63067fe91619fc39d112a1e1"/>
-      <topic label="aie::pipelined_loops" href="group__group__utility__functions.html#ga9e2872d48b31073fd47c2141b23eba76"/>
+      <topic label="Non-portable optimizations" href="group__group__utility__non__portable.html">
+        <topic label="Register pinning" href="group__group__utility__pinning.html">
+          <topic label="aie::utils::locate_in_register" href="group__group__utility__pinning.html#ga0862c0a13b7df5639bfc36c3ebdfc49c"/>
+          <topic label="aie::utils::locate_in_register" href="group__group__utility__pinning.html#ga12c1e8cbe1178d08e19ad560413a73ac"/>
+        </topic>
+      </topic>
     </topic>
   </topic>
 </toc>

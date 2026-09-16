@@ -1,10 +1,11 @@
 var group__group__elementary =
 [
     [ "Floating-point Scalar Operations", "group__group__fp__scalar.html", "group__group__fp__scalar" ],
-    [ "aie::abs_square", "group__group__elementary.html#gafe7952152b0813165ee2cb5fb45bfb1f", null ],
+    [ "aie::abs_square", "group__group__elementary.html#ga62a630800ae0fcdbc125f8f12dc17023", null ],
     [ "aie::cos", "group__group__elementary.html#ga40ff325aff372d961b13e459f9c3089e", null ],
     [ "aie::cos", "group__group__elementary.html#ga377ab679db35dbfc7742e1008fa7698e", null ],
-    [ "aie::exp2", "group__group__elementary.html#ga2e1d90d7f26ce9cc6dd525d0c828babb", null ],
+    [ "aie::exp2", "group__group__elementary.html#ga947e277ec4f3da6ff7c67bf20a9a406d", null ],
+    [ "aie::inv", "group__group__elementary.html#gacc3216f94a4641c8a75ce27d5fa3f89d", null ],
     [ "aie::inv", "group__group__elementary.html#ga7c339c30df70ee7ca1e66a1f0db99a8b", null ],
     [ "aie::inv", "group__group__elementary.html#gaf661511064b5fc3d0add1341357c8667", null ],
     [ "aie::inv", "group__group__elementary.html#gae20931f4b7a97fec467944a5897376b0", null ],
@@ -20,5 +21,5 @@ var group__group__elementary =
     [ "aie::sqrt", "group__group__elementary.html#ga57798736af9c333219a8282bac4d5021", null ],
     [ "aie::sqrt", "group__group__elementary.html#gaf9e1845c989a47729a6514141afc408f", null ],
     [ "aie::sqrt", "group__group__elementary.html#gacb853f072edc409685f7a93b68101ca9", null ],
-    [ "aie::tanh", "group__group__elementary.html#ga4f9415776f570f40f8b5d4fd6747de9e", null ]
+    [ "aie::tanh", "group__group__elementary.html#ga23f9577ea921254f77a4389c772d2149", null ]
 ];

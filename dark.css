@@ -1,0 +1,9 @@
+/* SPDX-License-Identifier: MIT */
+/* Copyright (C) 2022 Xilinx, Inc. */
+/* Copyright (C) 2022-2026 Advanced Micro Devices, Inc. */
+
+@media (prefers-color-scheme: dark) {
+  img {
+    filter: invert(1);
+  }
+}
