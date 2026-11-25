@@ -211,27 +211,17 @@ struct shuffle_down_fill_bits_impl<TypeBits, T, Elems>
                                                                 fill.template extract<Elems / 2>(0), n * sizeof(T)));
             }
             else {
-                vector<T, Elems / 2> tmp1a, tmp1b, tmp2a, tmp2b;
+                // The two branches above with the inputs selected at run time
+                using half_type = vector<T, Elems / 2>;
 
-                mask<Elems / 2> mask1(true), mask2(true);
+                const bool upper = n >= Elems / 2;
+                const half_type a = upper?    v.template extract<Elems / 2>(1) :    v.template extract<Elems / 2>(0);
+                const half_type b = upper? fill.template extract<Elems / 2>(0) :    v.template extract<Elems / 2>(1);
+                const half_type c = upper? fill.template extract<Elems / 2>(1) : fill.template extract<Elems / 2>(0);
+                const unsigned  m = upper? n - Elems / 2 : n;
 
-                mask1 <<= Elems - n;
-                mask2 <<= Elems - n;
-
-                tmp1a = ::shift_bytes(v.template extract<Elems / 2>(0),    v.template extract<Elems / 2>(1), n * sizeof(T));
-                tmp1b = ::shift_bytes(vector<T, Elems / 2>(),           fill.template extract<Elems / 2>(0), (n - Elems / 2) * sizeof(T));
-
-                tmp2a = ::shift_bytes(v.template extract<Elems / 2>(1), fill.template extract<Elems / 2>(0), n * sizeof(T));
-                tmp2b = ::shift_bytes(vector<T, Elems / 2>(),           fill.template extract<Elems / 2>(1), (n - Elems / 2) * sizeof(T));
-
-                if constexpr (Elems > 64) {
-                    ret.template insert<Elems / 2>(0, ::sel(tmp1a, tmp1b, mask1.to_uint64()));
-                    ret.template insert<Elems / 2>(1, ::sel(tmp2a, tmp2b, mask2.to_uint64()));
-                }
-                else {
-                    ret.template insert<Elems / 2>(0, ::sel(tmp1a, tmp1b, mask1.to_uint32()));
-                    ret.template insert<Elems / 2>(1, ::sel(tmp2a, tmp2b, mask2.to_uint32()));
-                }
+                ret.template insert<Elems / 2>(0, ::shift_bytes(a, b, m * sizeof(T)));
+                ret.template insert<Elems / 2>(1, ::shift_bytes(b, c, m * sizeof(T)));
             }
         }
         else {
